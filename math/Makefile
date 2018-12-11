@@ -169,7 +169,11 @@
     SUBDIR += clrng
     SUBDIR += cminpack
     SUBDIR += cmlib
+    SUBDIR += coin-or-data-netlib
+    SUBDIR += coin-or-data-sample
+    SUBDIR += coin-or-data-stochastic
     SUBDIR += coinmp
+    SUBDIR += coinutils
     SUBDIR += concorde
     SUBDIR += convertall
     SUBDIR += coq
@@ -225,7 +229,6 @@
     SUBDIR += gambit
     SUBDIR += gap
     SUBDIR += gau2grid
-    SUBDIR += gdcalc
     SUBDIR += geg
     SUBDIR += geogebra
     SUBDIR += geogram
@@ -494,6 +497,7 @@
     SUBDIR += openmesh
     SUBDIR += opensolaris-libm
     SUBDIR += orpie
+    SUBDIR += osi
     SUBDIR += osqp
     SUBDIR += p5-AI-DecisionTree
     SUBDIR += p5-AI-Genetic
