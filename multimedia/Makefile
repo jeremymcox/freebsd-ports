@@ -42,6 +42,7 @@
     SUBDIR += clutter-gst
     SUBDIR += clutter-gst3
     SUBDIR += cmrt
+    SUBDIR += cmrtlib
     SUBDIR += cuse4bsd-kmod
     SUBDIR += cx88
     SUBDIR += dav1d
@@ -103,7 +104,6 @@
     SUBDIR += gstreamer-plugins-all
     SUBDIR += gstreamer-plugins-annodex
     SUBDIR += gstreamer-plugins-bad
-    SUBDIR += gstreamer-plugins-buzztard
     SUBDIR += gstreamer-plugins-bz2
     SUBDIR += gstreamer-plugins-core
     SUBDIR += gstreamer-plugins-dts
