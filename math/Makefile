@@ -270,6 +270,7 @@
     SUBDIR += hs-contravariant
     SUBDIR += hs-data-lens
     SUBDIR += hs-data-lens-template
+    SUBDIR += hs-dense-linear-algebra
     SUBDIR += hs-distributive
     SUBDIR += hs-erf
     SUBDIR += hs-fixed
@@ -720,6 +721,7 @@
     SUBDIR += py-mpmath
     SUBDIR += py-munkres
     SUBDIR += py-networkx
+    SUBDIR += py-networkx1
     SUBDIR += py-numarray
     SUBDIR += py-numeric
     SUBDIR += py-numexpr
