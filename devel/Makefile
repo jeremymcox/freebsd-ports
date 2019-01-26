@@ -1689,6 +1689,7 @@
     SUBDIR += llvm50
     SUBDIR += llvm60
     SUBDIR += llvm70
+    SUBDIR += llvm80
     SUBDIR += lm4tools
     SUBDIR += lmdbg
     SUBDIR += lndir
@@ -4061,6 +4062,7 @@
     SUBDIR += pecl-msgpack
     SUBDIR += pecl-mustache
     SUBDIR += pecl-propro2
+    SUBDIR += pecl-protobuf
     SUBDIR += pecl-psr
     SUBDIR += pecl-pthreads
     SUBDIR += pecl-raphf2
@@ -6361,6 +6363,7 @@
     SUBDIR += xtoolchain-llvm50
     SUBDIR += xtoolchain-llvm60
     SUBDIR += xtoolchain-llvm70
+    SUBDIR += xtoolchain-llvm80
     SUBDIR += xwpe
     SUBDIR += xxgdb
     SUBDIR += xxhash

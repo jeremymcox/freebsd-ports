@@ -72,6 +72,7 @@
     SUBDIR += backuppc
     SUBDIR += backuppc-devel
     SUBDIR += backuppc4
+    SUBDIR += backupuser
     SUBDIR += bacula-bat
     SUBDIR += bacula-client
     SUBDIR += bacula-client-static
@@ -998,6 +999,7 @@
     SUBDIR += py-ranger
     SUBDIR += py-salt
     SUBDIR += py-scandir
+    SUBDIR += py-scarab
     SUBDIR += py-scriptine
     SUBDIR += py-shutilwhich
     SUBDIR += py-stdiff
