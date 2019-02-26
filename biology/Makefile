@@ -3,6 +3,7 @@
 
     COMMENT = Biology
 
+    SUBDIR += abyss
     SUBDIR += artemis
     SUBDIR += avida
     SUBDIR += babel
@@ -77,6 +78,7 @@
     SUBDIR += ngs-sdk
     SUBDIR += p5-AcePerl
     SUBDIR += p5-Bio-ASN1-EntrezGene
+    SUBDIR += p5-Bio-Cluster
     SUBDIR += p5-Bio-Coordinate
     SUBDIR += p5-Bio-Das
     SUBDIR += p5-Bio-Das-Lite
