@@ -75,11 +75,6 @@
     SUBDIR += backuppc-devel
     SUBDIR += backuppc4
     SUBDIR += backupuser
-    SUBDIR += bacula-bat
-    SUBDIR += bacula-client
-    SUBDIR += bacula-client-static
-    SUBDIR += bacula-docs
-    SUBDIR += bacula-server
     SUBDIR += bacula9-bat
     SUBDIR += bacula9-client
     SUBDIR += bacula9-client-static
@@ -856,6 +851,7 @@
     SUBDIR += panicmail
     SUBDIR += parafly
     SUBDIR += parallel
+    SUBDIR += pass-otp
     SUBDIR += password-store
     SUBDIR += passwordsafe
     SUBDIR += patchelf
@@ -944,10 +940,8 @@
     SUBDIR += ptools
     SUBDIR += puppet-lint
     SUBDIR += puppet-mode.el
-    SUBDIR += puppet4
     SUBDIR += puppet5
     SUBDIR += puppet6
-    SUBDIR += puppetserver
     SUBDIR += puppetserver5
     SUBDIR += puppetserver6
     SUBDIR += pv
@@ -1552,6 +1546,8 @@
     SUBDIR += zisofs-tools
     SUBDIR += znapzend
     SUBDIR += zogftw
+    SUBDIR += zol
+    SUBDIR += zol-kmod
     SUBDIR += zrep
     SUBDIR += zrepl
     SUBDIR += zsd

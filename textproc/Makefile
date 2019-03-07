@@ -167,7 +167,6 @@
     SUBDIR += elasticsearch5-search-guard
     SUBDIR += elasticsearch6
     SUBDIR += elixir-earmark
-    SUBDIR += elixir-ex_doc
     SUBDIR += elixir-funnel
     SUBDIR += elixir-sweet_xml
     SUBDIR += emacs-wiki
@@ -1604,6 +1603,7 @@
     SUBDIR += rubygem-multi_xml
     SUBDIR += rubygem-nokogiri
     SUBDIR += rubygem-nokogiri-diff
+    SUBDIR += rubygem-nokogiri18
     SUBDIR += rubygem-nokogumbo
     SUBDIR += rubygem-octopress-escape-code
     SUBDIR += rubygem-opml
