@@ -12,8 +12,8 @@ LICENSE=	EPL
 
 USES=		compiler:c11 meson ninja python:build
 
-HASH=		8cc0aff
-AST_COMMIT_DATE=	2019.04.04
+HASH=		34f0938
+AST_COMMIT_DATE=	2019.04.10
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	att
@@ -23,7 +23,6 @@ GH_TAGNAME=	${HASH}
 KSH_CONFLICTS=		pdksh-*
 KSH93_CONFLICTS=	ksh93-2*
 
-FETCH_ENV=	HTTP_AUTH=basic:*:I\ accept\ www.opensource.org/licenses/cpl:.
 LDFLAGS+=	-lm
 MESON_BUILD_DIR=	build
 MAKE_ENV=	CCFLAGS="${CFLAGS}"
