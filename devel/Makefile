@@ -56,6 +56,8 @@
     SUBDIR += R-cran-plogr
     SUBDIR += R-cran-plyr
     SUBDIR += R-cran-praise
+    SUBDIR += R-cran-prettyunits
+    SUBDIR += R-cran-progress
     SUBDIR += R-cran-promises
     SUBDIR += R-cran-proto
     SUBDIR += R-cran-purrr
@@ -323,6 +325,7 @@
     SUBDIR += clig
     SUBDIR += cligen
     SUBDIR += clinfo
+    SUBDIR += clipp
     SUBDIR += clisp-hyperspec
     SUBDIR += clixon
     SUBDIR += clojure-cider
@@ -556,6 +559,7 @@
     SUBDIR += elixir-tzdata
     SUBDIR += elixir-unsafe
     SUBDIR += embb
+    SUBDIR += emscripten
     SUBDIR += epl.el
     SUBDIR += epm
     SUBDIR += epydoc
@@ -1401,6 +1405,7 @@
     SUBDIR += linux-c7-qt
     SUBDIR += linux-c7-sdl12
     SUBDIR += linux-c7-sdl20
+    SUBDIR += linux-c7-strace
     SUBDIR += linux-ltp
     SUBDIR += linux_libusb
     SUBDIR += lion
@@ -4665,6 +4670,7 @@
     SUBDIR += py-pika-pool
     SUBDIR += py-pinocchio
     SUBDIR += py-pip
+    SUBDIR += py-pip-api
     SUBDIR += py-pip-tools
     SUBDIR += py-pipenv
     SUBDIR += py-pkgconfig
@@ -4777,6 +4783,7 @@
     SUBDIR += py-pytest-django
     SUBDIR += py-pytest-flake8
     SUBDIR += py-pytest-flakes
+    SUBDIR += py-pytest-forked
     SUBDIR += py-pytest-helpers-namespace
     SUBDIR += py-pytest-localserver
     SUBDIR += py-pytest-mock
@@ -5033,6 +5040,7 @@
     SUBDIR += py-wcwidth
     SUBDIR += py-weakrefmethod
     SUBDIR += py-weblib
+    SUBDIR += py-websockets
     SUBDIR += py-websockify
     SUBDIR += py-wheel
     SUBDIR += py-whichcraft
@@ -5541,6 +5549,7 @@
     SUBDIR += rubygem-interact
     SUBDIR += rubygem-io-like
     SUBDIR += rubygem-iobuffer
+    SUBDIR += rubygem-irb
     SUBDIR += rubygem-iso8601
     SUBDIR += rubygem-jaeger-client
     SUBDIR += rubygem-jammit
@@ -6195,6 +6204,7 @@
     SUBDIR += z80asm
     SUBDIR += z80ex
     SUBDIR += zanata-cli
+    SUBDIR += zanata-platform
     SUBDIR += zapcc
     SUBDIR += zeal
     SUBDIR += zfp

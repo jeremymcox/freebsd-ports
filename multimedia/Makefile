@@ -145,6 +145,9 @@
     SUBDIR += gstreamer1-plugins-resindvd
     SUBDIR += gstreamer1-plugins-rtmp
     SUBDIR += gstreamer1-plugins-smoothstreaming
+    SUBDIR += gstreamer1-plugins-svt-av1
+    SUBDIR += gstreamer1-plugins-svt-hevc
+    SUBDIR += gstreamer1-plugins-svt-vp9
     SUBDIR += gstreamer1-plugins-theora
     SUBDIR += gstreamer1-plugins-ttml
     SUBDIR += gstreamer1-plugins-ugly
@@ -436,7 +439,6 @@
     SUBDIR += vdr-plugin-softhddevice
     SUBDIR += vdr-plugin-streamdev
     SUBDIR += vdr-plugin-ttxtsubs
-    SUBDIR += vdr-plugin-upnp
     SUBDIR += vdr-plugin-vdrmanager
     SUBDIR += vdr-plugin-vnsiserver
     SUBDIR += vdr-plugin-wirbelscan
