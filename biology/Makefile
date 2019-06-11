@@ -11,6 +11,7 @@
     SUBDIR += bcftools
     SUBDIR += bedtools
     SUBDIR += biococoa
+    SUBDIR += bolt-lmm
     SUBDIR += bowtie
     SUBDIR += bowtie2
     SUBDIR += bwa
@@ -22,6 +23,7 @@
     SUBDIR += clustal-omega
     SUBDIR += clustalw
     SUBDIR += consed
+    SUBDIR += cufflinks
     SUBDIR += cytoscape
     SUBDIR += ddocent
     SUBDIR += diamond
@@ -49,6 +51,7 @@
     SUBDIR += graphlan
     SUBDIR += grappa
     SUBDIR += groopm
+    SUBDIR += hhsuite
     SUBDIR += hisat2
     SUBDIR += hmmer
     SUBDIR += htslib
@@ -71,6 +74,7 @@
     SUBDIR += minimap2
     SUBDIR += molden
     SUBDIR += mopac
+    SUBDIR += mothur
     SUBDIR += mrbayes
     SUBDIR += mummer
     SUBDIR += muscle

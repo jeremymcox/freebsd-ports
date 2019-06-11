@@ -9,7 +9,7 @@ PORTREVISION=	0
 .else
 # XXX: correct version
 # dns/bind9xx here
-PORTREVISION=	1
+PORTREVISION=	2
 .endif
 CATEGORIES=	dns net ipv6
 # XXX: put the ISC master_site
@@ -41,13 +41,13 @@ RUN_DEPENDS=	bind-tools>0:dns/bind-tools
 # XXX: remove tar:bz2
 USES=	compiler:c11 cpe libedit ssl tar:bz2
 # ISC releases things like 9.8.0-P1, which our versioning doesn't like
-ISCVERSION=	9.15.0a0.2019.05.12
+ISCVERSION=	9.15.0a0.2019.06.10
 # XXX: Remove gitlab
 USE_GITLAB=	yes
 GL_SITE=	https://gitlab.isc.org
 GL_ACCOUNT=	isc-projects
 GL_PROJECT=	bind9
-GL_COMMIT=	976d62aa23a6505b1801d4cddaa0e0280d3f3fdf
+GL_COMMIT=	32c86e29e23c6829290086f919fed3cf124fe348
 
 CPE_VENDOR=	isc
 CPE_VERSION=	${ISCVERSION:C/-.*//}
@@ -173,8 +173,9 @@ IDN_CONFIGURE_ON=	--with-libidn2=${LOCALBASE} ${ICONV_CONFIGURE_BASE}
 IDN_LIB_DEPENDS=	libidn2.so:dns/libidn2
 IDN_USES=		iconv
 
-JSON_CONFIGURE_WITH=	libjson=${LOCALBASE}
+JSON_CONFIGURE_WITH=	json-c
 JSON_LIB_DEPENDS=	libjson-c.so:devel/json-c
+JSON_LDFLAGS=		-L${LOCALBASE}/lib -ljson-c
 
 LARGE_FILE_CONFIGURE_ENABLE=	largefile
 

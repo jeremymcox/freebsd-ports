@@ -502,6 +502,7 @@
     SUBDIR += midipp
     SUBDIR += mikmod
     SUBDIR += milkytracker
+    SUBDIR += mio2jack
     SUBDIR += mixer.app
     SUBDIR += mixmos
     SUBDIR += mixxx
@@ -770,7 +771,6 @@
     SUBDIR += soundtouch
     SUBDIR += sox
     SUBDIR += spc2it
-    SUBDIR += specimen
     SUBDIR += spectrogram
     SUBDIR += speech-denoiser-lv2
     SUBDIR += speex

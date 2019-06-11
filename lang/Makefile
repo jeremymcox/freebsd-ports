@@ -110,12 +110,10 @@
     SUBDIR += gcc7-devel
     SUBDIR += gcc8
     SUBDIR += gcc8-devel
+    SUBDIR += gcc9
     SUBDIR += gcc9-devel
     SUBDIR += gforth
     SUBDIR += ghc
-    SUBDIR += ghc843
-    SUBDIR += ghc844
-    SUBDIR += ghc862
     SUBDIR += gjs
     SUBDIR += gnat_util
     SUBDIR += gnatcross-aarch64
@@ -131,6 +129,7 @@
     SUBDIR += gnustep-base
     SUBDIR += go
     SUBDIR += go14
+    SUBDIR += gomacro
     SUBDIR += gprolog
     SUBDIR += gravity
     SUBDIR += groovy
@@ -154,12 +153,15 @@
     SUBDIR += itcl
     SUBDIR += itcl4
     SUBDIR += jakarta-commons-jelly
+    SUBDIR += janet
     SUBDIR += jimtcl
     SUBDIR += jruby
     SUBDIR += js_of_ocaml
     SUBDIR += julia
     SUBDIR += julia06
     SUBDIR += julia07
+    SUBDIR += julia10
+    SUBDIR += julia11
     SUBDIR += jython
     SUBDIR += kawa
     SUBDIR += kf5-kross
@@ -282,6 +284,7 @@
     SUBDIR += php73
     SUBDIR += php73-extensions
     SUBDIR += picoc
+    SUBDIR += plexil
     SUBDIR += pocl
     SUBDIR += polyml
     SUBDIR += ponyc
@@ -306,6 +309,7 @@
     SUBDIR += python35
     SUBDIR += python36
     SUBDIR += python37
+    SUBDIR += qmasm
     SUBDIR += qscheme
     SUBDIR += quack
     SUBDIR += racket
@@ -348,10 +352,8 @@
     SUBDIR += snobol4
     SUBDIR += solidity
     SUBDIR += spidermonkey17
-    SUBDIR += spidermonkey170
     SUBDIR += spidermonkey185
     SUBDIR += spidermonkey24
-    SUBDIR += spidermonkey38
     SUBDIR += spidermonkey52
     SUBDIR += spl
     SUBDIR += squeak
