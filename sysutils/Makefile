@@ -42,6 +42,7 @@
     SUBDIR += ansible24
     SUBDIR += ansible25
     SUBDIR += ansible26
+    SUBDIR += ansible27
     SUBDIR += anvil
     SUBDIR += apachetop
     SUBDIR += apcpwr
@@ -106,6 +107,7 @@
     SUBDIR += biosfont
     SUBDIR += bkpupsd
     SUBDIR += bksh
+    SUBDIR += boot-extract
     SUBDIR += boxbackup-devel
     SUBDIR += brasero
     SUBDIR += bsd-splash-changer
@@ -148,22 +150,12 @@
     SUBDIR += cfengine-masterfiles311
     SUBDIR += cfengine-masterfiles312
     SUBDIR += cfengine-masterfiles313
-    SUBDIR += cfengine-masterfiles36
-    SUBDIR += cfengine-masterfiles37
-    SUBDIR += cfengine-masterfiles38
-    SUBDIR += cfengine-masterfiles39
+    SUBDIR += cfengine-masterfiles314
     SUBDIR += cfengine310
     SUBDIR += cfengine311
     SUBDIR += cfengine312
     SUBDIR += cfengine313
-    SUBDIR += cfengine32
-    SUBDIR += cfengine33
-    SUBDIR += cfengine34
-    SUBDIR += cfengine35
-    SUBDIR += cfengine36
-    SUBDIR += cfengine37
-    SUBDIR += cfengine38
-    SUBDIR += cfengine39
+    SUBDIR += cfengine314
     SUBDIR += chgrep
     SUBDIR += chyves
     SUBDIR += cinnamon-control-center
@@ -224,6 +216,7 @@
     SUBDIR += daemonize
     SUBDIR += daemontools
     SUBDIR += daemontools-encore
+    SUBDIR += daggy
     SUBDIR += dar
     SUBDIR += dateutils
     SUBDIR += dc3dd
@@ -487,6 +480,7 @@
     SUBDIR += hpacucli
     SUBDIR += hploscripts
     SUBDIR += hptcli
+    SUBDIR += hs-cputype
     SUBDIR += hstr
     SUBDIR += htop
     SUBDIR += httplog
@@ -532,6 +526,7 @@
     SUBDIR += javaservicewrapper
     SUBDIR += jdiskreport
     SUBDIR += jdupes
+    SUBDIR += jest
     SUBDIR += jkill
     SUBDIR += jobd
     SUBDIR += jps
@@ -716,6 +711,7 @@
     SUBDIR += mptd
     SUBDIR += msiklm
     SUBDIR += msktutil
+    SUBDIR += mstflint
     SUBDIR += msyslog
     SUBDIR += mtm
     SUBDIR += mtpfs
@@ -735,6 +731,7 @@
     SUBDIR += ncdu
     SUBDIR += ndmpd
     SUBDIR += neofetch
+    SUBDIR += netevent
     SUBDIR += nfcutils
     SUBDIR += nfsping
     SUBDIR += nitrogen
@@ -1313,6 +1310,7 @@
     SUBDIR += syslog-ng319
     SUBDIR += syslog-ng320
     SUBDIR += syslog-ng321
+    SUBDIR += syslog-ng322
     SUBDIR += syslog-ng39
     SUBDIR += syslogger
     SUBDIR += sysrc
@@ -1504,7 +1502,6 @@
     SUBDIR += xe-guest-utilities
     SUBDIR += xen-guest-tools
     SUBDIR += xen-tools
-    SUBDIR += xen-tools47
     SUBDIR += xfburn
     SUBDIR += xfce4-battery-plugin
     SUBDIR += xfce4-bsdcpufreq-plugin

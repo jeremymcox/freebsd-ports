@@ -16,6 +16,7 @@
     SUBDIR += aescrypt
     SUBDIR += aespipe
     SUBDIR += afl
+    SUBDIR += afl++
     SUBDIR += afterglow
     SUBDIR += aide
     SUBDIR += akmos
@@ -90,6 +91,7 @@
     SUBDIR += clamfs
     SUBDIR += clamsmtp
     SUBDIR += clamtk
+    SUBDIR += cloak
     SUBDIR += clusterssh
     SUBDIR += cops
     SUBDIR += courier-authlib
@@ -370,6 +372,7 @@
     SUBDIR += mkp224o
     SUBDIR += modsecurity3
     SUBDIR += modsecurity3-apache
+    SUBDIR += modsecurity3-nginx
     SUBDIR += monkeysphere
     SUBDIR += morphis
     SUBDIR += munge
@@ -930,6 +933,7 @@
     SUBDIR += py-mixbox
     SUBDIR += py-mnemonic
     SUBDIR += py-msoffcrypto-tool
+    SUBDIR += py-muacrypt
     SUBDIR += py-netmiko
     SUBDIR += py-ntlm-auth
     SUBDIR += py-oauth2client
@@ -971,6 +975,7 @@
     SUBDIR += py-pysaml2
     SUBDIR += py-pyscard
     SUBDIR += py-pysha3
+    SUBDIR += py-pysodium
     SUBDIR += py-python-axolotl
     SUBDIR += py-python-axolotl-curve25519
     SUBDIR += py-python-gnupg
@@ -1078,7 +1083,6 @@
     SUBDIR += rubygem-bcrypt_pbkdf
     SUBDIR += rubygem-devise-two-factor
     SUBDIR += rubygem-devise-two-factor-rails5
-    SUBDIR += rubygem-devise-two-factor-rails50
     SUBDIR += rubygem-devise_pam_authenticatable2
     SUBDIR += rubygem-digest-crc
     SUBDIR += rubygem-doorkeeper
@@ -1211,7 +1215,6 @@
     SUBDIR += snort-rep
     SUBDIR += snort2pfcd
     SUBDIR += snort3
-    SUBDIR += snortreport
     SUBDIR += snortsam
     SUBDIR += snortsnarf
     SUBDIR += snuffleupagus

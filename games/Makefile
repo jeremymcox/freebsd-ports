@@ -323,11 +323,6 @@
     SUBDIR += gemdropx
     SUBDIR += gemrb
     SUBDIR += genact
-    SUBDIR += ggz-client-libs
-    SUBDIR += ggz-gtk-client
-    SUBDIR += ggz-gtk-games
-    SUBDIR += ggz-sdl-games
-    SUBDIR += ggz-txt-client
     SUBDIR += gigalomania
     SUBDIR += gillo
     SUBDIR += gl-117
@@ -506,7 +501,6 @@
     SUBDIR += legesmotus
     SUBDIR += lexter
     SUBDIR += lgeneral
-    SUBDIR += libggz
     SUBDIR += libgnome-games-support
     SUBDIR += libkdegames
     SUBDIR += libkmahjongg
@@ -1011,6 +1005,7 @@
     SUBDIR += vitetris
     SUBDIR += vkquake
     SUBDIR += vms-empire
+    SUBDIR += voadi
     SUBDIR += vodovod
     SUBDIR += volleyball
     SUBDIR += vor
