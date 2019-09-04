@@ -23,6 +23,7 @@
     SUBDIR += apinger
     SUBDIR += appkonference
     SUBDIR += aprsc
+    SUBDIR += aquantia-atlantic-kmod
     SUBDIR += arp-scan
     SUBDIR += arp-sk
     SUBDIR += arpdig
@@ -999,7 +1000,6 @@
     SUBDIR += prtunnel
     SUBDIR += ptpd2
     SUBDIR += ptunnel
-    SUBDIR += pure-sockets
     SUBDIR += pvm
     SUBDIR += pwhois
     SUBDIR += pxe
