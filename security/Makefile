@@ -36,6 +36,7 @@
     SUBDIR += autossh
     SUBDIR += avcheck
     SUBDIR += aws-iam-authenticator
+    SUBDIR += aws-vault
     SUBDIR += axTLS
     SUBDIR += barnyard2
     SUBDIR += barnyard2-sguil
@@ -310,6 +311,7 @@
     SUBDIR += libpwstor
     SUBDIR += libressl
     SUBDIR += libressl-devel
+    SUBDIR += libscep 
     SUBDIR += libscrypt
     SUBDIR += libsecret
     SUBDIR += libsectok
@@ -541,6 +543,7 @@
     SUBDIR += p5-Crypt-Juniper
     SUBDIR += p5-Crypt-Khazad
     SUBDIR += p5-Crypt-LE
+    SUBDIR += p5-Crypt-LibSCEP
     SUBDIR += p5-Crypt-License
     SUBDIR += p5-Crypt-Lite
     SUBDIR += p5-Crypt-Loki97
@@ -839,6 +842,7 @@
     SUBDIR += portsentry
     SUBDIR += ppars
     SUBDIR += proftpd-mod_clamav
+    SUBDIR += protonvpn-cli
     SUBDIR += proxycheck
     SUBDIR += proxytunnel
     SUBDIR += pscan
@@ -1228,7 +1232,6 @@
     SUBDIR += softether
     SUBDIR += softether-devel
     SUBDIR += softether5
-    SUBDIR += softhsm
     SUBDIR += softhsm2
     SUBDIR += sops
     SUBDIR += spass
@@ -1276,6 +1279,7 @@
     SUBDIR += tcpcrypt
     SUBDIR += teleport
     SUBDIR += testssl.sh
+    SUBDIR += tfhe
     SUBDIR += theonionbox
     SUBDIR += tinc
     SUBDIR += tinc-devel

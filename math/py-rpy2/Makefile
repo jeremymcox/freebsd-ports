@@ -3,6 +3,7 @@
 
 PORTNAME=	rpy2
 DISTVERSION=	3.2.0
+PORTREVISION=	1
 CATEGORIES=	math
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
@@ -25,7 +26,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cffi>=1.10.0:devel/py-cffi@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}simplegeneric>=0:devel/py-simplegeneric@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}tzlocal>=0:devel/py-tzlocal@${PY_FLAVOR}
 
-USES=		fortran python:3.5+ readline
+USES=		compiler:c11 fortran python:3.5+ readline
 USE_PYTHON=	autoplist distutils
 
 MAKE_ENV=	RPY2_CFFI_MODE=BOTH

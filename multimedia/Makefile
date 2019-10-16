@@ -449,6 +449,7 @@
     SUBDIR += vdr-plugins
     SUBDIR += vid.stab
     SUBDIR += vlc
+    SUBDIR += vmaf
     SUBDIR += vtkmpeg2encode
     SUBDIR += w_scan
     SUBDIR += webcamd
@@ -466,6 +467,7 @@
     SUBDIR += xporthdmv
     SUBDIR += xvid
     SUBDIR += yamdi
+    SUBDIR += zart
     SUBDIR += zoneminder
 
 .include <bsd.port.subdir.mk>
