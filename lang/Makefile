@@ -101,7 +101,6 @@
     SUBDIR += gcc-ecj45
     SUBDIR += gcc10-devel
     SUBDIR += gcc48
-    SUBDIR += gcc5
     SUBDIR += gcc6
     SUBDIR += gcc6-aux
     SUBDIR += gcc7
@@ -294,6 +293,7 @@
     SUBDIR += py-mx-base
     SUBDIR += py-prolog
     SUBDIR += py-qt5-qml
+    SUBDIR += py-textX
     SUBDIR += pypy
     SUBDIR += pypy3
     SUBDIR += python
