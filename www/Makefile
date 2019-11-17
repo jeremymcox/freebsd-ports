@@ -42,7 +42,6 @@
     SUBDIR += bareos-webui
     SUBDIR += bareos16-webui
     SUBDIR += bareos17-webui
-    SUBDIR += bigbluebutton
     SUBDIR += bkmrkconv
     SUBDIR += blastbeat
     SUBDIR += bluefish
@@ -254,6 +253,7 @@
     SUBDIR += httpasyncclient
     SUBDIR += httpclient
     SUBDIR += httpcore
+    SUBDIR += httpdirfs
     SUBDIR += httptunnel
     SUBDIR += httrack
     SUBDIR += hypermail
@@ -456,9 +456,10 @@
     SUBDIR += nginx-naxsi
     SUBDIR += nginx-prometheus-exporter
     SUBDIR += nibbleblog
+    SUBDIR += nift
     SUBDIR += node
     SUBDIR += node10
-    SUBDIR += node6
+    SUBDIR += node12
     SUBDIR += node8
     SUBDIR += nostromo
     SUBDIR += novnc
@@ -467,6 +468,7 @@
     SUBDIR += npc
     SUBDIR += npm
     SUBDIR += npm-node10
+    SUBDIR += npm-node12
     SUBDIR += npm-node8
     SUBDIR += nspluginwrapper
     SUBDIR += obhttpd
@@ -1215,7 +1217,6 @@
     SUBDIR += p5-WWW-Mechanize-FormFiller
     SUBDIR += p5-WWW-Mechanize-GZip
     SUBDIR += p5-WWW-Mechanize-Meta
-    SUBDIR += p5-WWW-Mechanize-PhantomJS
     SUBDIR += p5-WWW-Mechanize-Pluggable
     SUBDIR += p5-WWW-Mechanize-Plugin-phpBB
     SUBDIR += p5-WWW-Mechanize-Shell
@@ -1358,7 +1359,6 @@
     SUBDIR += pear-UDDI
     SUBDIR += pear-XML_GRDDL
     SUBDIR += pear-twig
-    SUBDIR += pebble
     SUBDIR += pecl-http
     SUBDIR += pecl-solr
     SUBDIR += pecl-yaf
@@ -1448,6 +1448,7 @@
     SUBDIR += py-collective.easytemplate
     SUBDIR += py-collective.templateengines
     SUBDIR += py-cookies
+    SUBDIR += py-crossplane
     SUBDIR += py-css-parser
     SUBDIR += py-csscompressor
     SUBDIR += py-cssmin
@@ -1472,6 +1473,7 @@
     SUBDIR += py-dj22-django-auth-ldap
     SUBDIR += py-dj22-django-cacheops
     SUBDIR += py-dj22-django-cors-headers
+    SUBDIR += py-dj22-django-crispy-forms
     SUBDIR += py-dj22-django-debug-toolbar
     SUBDIR += py-dj22-django-filter
     SUBDIR += py-dj22-django-formset-js-improved
@@ -1917,6 +1919,7 @@
     SUBDIR += redmine-sidebar_hide
     SUBDIR += redmine-single_auth
     SUBDIR += redmine-wiki_notes
+    SUBDIR += redmine4
     SUBDIR += rejik
     SUBDIR += reportmagic
     SUBDIR += repos-style
@@ -2291,7 +2294,6 @@
     SUBDIR += tntnet
     SUBDIR += tokyopromenade
     SUBDIR += tomcat-native
-    SUBDIR += tomcat6
     SUBDIR += tomcat7
     SUBDIR += tomcat85
     SUBDIR += tomcat9

@@ -147,7 +147,6 @@
     SUBDIR += libXfixes
     SUBDIR += libXi
     SUBDIR += libXinerama
-    SUBDIR += libXp
     SUBDIR += libXpm
     SUBDIR += libXpresent
     SUBDIR += libXrandr
@@ -157,7 +156,6 @@
     SUBDIR += libXv
     SUBDIR += libXvMC
     SUBDIR += libXxf86dga
-    SUBDIR += libXxf86misc
     SUBDIR += libXxf86vm
     SUBDIR += libdmx
     SUBDIR += libexo
@@ -209,6 +207,7 @@
     SUBDIR += lxqt-globalkeys
     SUBDIR += lxqt-runner
     SUBDIR += lxrandr
+    SUBDIR += ly
     SUBDIR += mate
     SUBDIR += mate-applets
     SUBDIR += mate-base
@@ -220,6 +219,8 @@
     SUBDIR += mate-terminal
     SUBDIR += menu-cache
     SUBDIR += menulibre
+    SUBDIR += mere-about
+    SUBDIR += mere-utils
     SUBDIR += metalock
     SUBDIR += metisse
     SUBDIR += mkcomposecache
@@ -421,10 +422,8 @@
     SUBDIR += xfce4-whiskermenu-plugin
     SUBDIR += xfce4-wmdock-plugin
     SUBDIR += xfd
-    SUBDIR += xfindproxy
     SUBDIR += xfishtank
     SUBDIR += xforward
-    SUBDIR += xfwp
     SUBDIR += xgamma
     SUBDIR += xgc
     SUBDIR += xgrab
