@@ -21,6 +21,7 @@
     SUBDIR += R-cran-diagram
     SUBDIR += R-cran-dichromat
     SUBDIR += R-cran-dygraphs
+    SUBDIR += R-cran-farver
     SUBDIR += R-cran-ggplot2
     SUBDIR += R-cran-gridBase
     SUBDIR += R-cran-gridExtra
@@ -1088,6 +1089,7 @@
     SUBDIR += xv-m17n
     SUBDIR += xwpick
     SUBDIR += xzgv
+    SUBDIR += yacreader
     SUBDIR += yafaray
     SUBDIR += yed
     SUBDIR += yukon

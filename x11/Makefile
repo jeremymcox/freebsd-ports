@@ -219,8 +219,6 @@
     SUBDIR += mate-terminal
     SUBDIR += menu-cache
     SUBDIR += menulibre
-    SUBDIR += mere-about
-    SUBDIR += mere-utils
     SUBDIR += metalock
     SUBDIR += metisse
     SUBDIR += mkcomposecache
@@ -266,6 +264,7 @@
     SUBDIR += printscreen
     SUBDIR += props
     SUBDIR += py-caffeine-ng
+    SUBDIR += py-i3ipc
     SUBDIR += py-pyscreenshot
     SUBDIR += py-pyvirtualdisplay
     SUBDIR += py-qt5-opengl
