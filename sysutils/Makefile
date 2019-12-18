@@ -587,7 +587,6 @@
     SUBDIR += libsysstat
     SUBDIR += libudisks
     SUBDIR += liburcu
-    SUBDIR += life-preserver
     SUBDIR += lineak-defaultplugin
     SUBDIR += lineak-xosdplugin
     SUBDIR += lineakd
@@ -863,14 +862,9 @@
     SUBDIR += passwordsafe
     SUBDIR += patchelf
     SUBDIR += pax-utils
-    SUBDIR += pbi-manager
     SUBDIR += pbimaker
     SUBDIR += pc-networkmanager
     SUBDIR += pcapfix
-    SUBDIR += pcbsd-appweb
-    SUBDIR += pcbsd-libsh
-    SUBDIR += pcbsd-syscache
-    SUBDIR += pcbsd-utils
     SUBDIR += pciutils
     SUBDIR += pcpustat
     SUBDIR += pdixtract
@@ -896,8 +890,6 @@
     SUBDIR += pftables
     SUBDIR += pftop
     SUBDIR += phantom
-    SUBDIR += php71-fileinfo
-    SUBDIR += php71-posix
     SUBDIR += php72-fileinfo
     SUBDIR += php72-posix
     SUBDIR += php73-fileinfo
@@ -1420,6 +1412,7 @@
     SUBDIR += vbetool
     SUBDIR += vchanger
     SUBDIR += vcp
+    SUBDIR += vector
     SUBDIR += videogen
     SUBDIR += vii
     SUBDIR += vils
@@ -1437,7 +1430,6 @@
     SUBDIR += vttest
     SUBDIR += vzvol
     SUBDIR += wait_on
-    SUBDIR += warden
     SUBDIR += watchdog
     SUBDIR += watchfolder
     SUBDIR += watchman
