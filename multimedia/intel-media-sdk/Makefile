@@ -2,11 +2,8 @@
 
 PORTNAME=	intel-media-sdk
 DISTVERSIONPREFIX=	intel-mediasdk-
-DISTVERSION=	19.4.pre2
+DISTVERSION=	19.4.0
 CATEGORIES=	multimedia
-
-PATCH_SITES=	https://github.com/${GH_ACCOUNT}/${GH_PROJECT}/commit/
-PATCHFILES+=	9d26f179cd95.patch:-p1 # https://github.com/Intel-Media-SDK/MediaSDK/pull/1846
 
 MAINTAINER=	jbeich@FreeBSD.org
 COMMENT=	Hardware video decoding/encoding/filtering on Intel GPUs
@@ -18,6 +15,7 @@ ONLY_FOR_ARCHS=	amd64 i386
 ONLY_FOR_ARCHS_REASON=	Only Intel GPUs on x86 are supported
 
 LIB_DEPENDS=	libva.so:multimedia/libva
+RUN_DEPENDS=	cmrtlib>0:multimedia/cmrtlib
 
 USES=		cmake compiler:c++11-lib pkgconfig
 USE_GITHUB=	yes
@@ -45,7 +43,7 @@ WAYLAND_LIB_DEPENDS=	libdrm_intel.so:graphics/libdrm \
 			libwayland-client.so:graphics/wayland
 WAYLAND_CMAKE_BOOL=	ENABLE_WAYLAND
 
-TEST_BUILD_DEPENDS=	googlemock>0:devel/googlemock
+TEST_BUILD_DEPENDS=	googletest>0:devel/googletest
 TEST_USES=		localbase:ldflags
 TEST_CMAKE_BOOL=	BUILD_TESTS USE_SYSTEM_GTEST
 TEST_TEST_TARGET=	test
