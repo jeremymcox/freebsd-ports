@@ -35,6 +35,7 @@
     SUBDIR += af-aspell
     SUBDIR += aft
     SUBDIR += agrep
+    SUBDIR += aha
     SUBDIR += aiksaurus
     SUBDIR += align
     SUBDIR += am-aspell
@@ -1199,7 +1200,6 @@
     SUBDIR += po4a
     SUBDIR += pocketreader
     SUBDIR += pod2mdoc
-    SUBDIR += pootle
     SUBDIR += popup
     SUBDIR += popup-stacks
     SUBDIR += ppower4

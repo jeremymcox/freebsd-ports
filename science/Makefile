@@ -39,6 +39,7 @@
     SUBDIR += buddy
     SUBDIR += cdcl
     SUBDIR += cdf
+    SUBDIR += cdk
     SUBDIR += cdo
     SUBDIR += cgnslib
     SUBDIR += cgribex
@@ -69,6 +70,7 @@
     SUBDIR += dvc
     SUBDIR += eccodes
     SUBDIR += elk
+    SUBDIR += elmerfem
     SUBDIR += epte
     SUBDIR += erd
     SUBDIR += erkale
@@ -149,7 +151,6 @@
     SUBDIR += mcxtrace-comps
     SUBDIR += mdynamix
     SUBDIR += medit
-    SUBDIR += meep
     SUBDIR += metaphysicl
     SUBDIR += minc2
     SUBDIR += mmdb2
