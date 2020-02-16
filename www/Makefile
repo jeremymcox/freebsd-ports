@@ -1385,7 +1385,6 @@
     SUBDIR += piwigo
     SUBDIR += planet
     SUBDIR += plasma5-plasma-browser-integration
-    SUBDIR += plexwatchweb
     SUBDIR += plugger
     SUBDIR += pmwiki
     SUBDIR += pnews
@@ -1467,6 +1466,7 @@
     SUBDIR += py-dj22-djangoql
     SUBDIR += py-dj22-djangorestframework
     SUBDIR += py-dj22-drf-yasg
+    SUBDIR += py-dj22-jsonfield
     SUBDIR += py-dj22-jsonfield2
     SUBDIR += py-dj22-swapper
     SUBDIR += py-django
