@@ -249,6 +249,7 @@
     SUBDIR += hs-lhs2tex
     SUBDIR += hs-pandoc
     SUBDIR += hs-pandoc-citeproc
+    SUBDIR += hs-pandoc-crossref
     SUBDIR += hs-yaml
     SUBDIR += hsb-aspell
     SUBDIR += htdig
@@ -1572,6 +1573,7 @@
     SUBDIR += rubygem-org-ruby
     SUBDIR += rubygem-ox
     SUBDIR += rubygem-parslet
+    SUBDIR += rubygem-parslet1
     SUBDIR += rubygem-phone
     SUBDIR += rubygem-pretty-xml
     SUBDIR += rubygem-psych
