@@ -155,7 +155,6 @@
     SUBDIR += dwdiff
     SUBDIR += easydiff
     SUBDIR += ebook-tools
-    SUBDIR += ecromedos
     SUBDIR += ekhtml
     SUBDIR += el-aspell
     SUBDIR += el-hyphen
@@ -1345,6 +1344,7 @@
     SUBDIR += py-python-slugify
     SUBDIR += py-python-xmp-toolkit
     SUBDIR += py-pytidylib
+    SUBDIR += py-pytoml
     SUBDIR += py-pyx12
     SUBDIR += py-qrcode
     SUBDIR += py-qt5-xml
@@ -1399,7 +1399,6 @@
     SUBDIR += py-ucl
     SUBDIR += py-ufal.udpipe
     SUBDIR += py-whoosh
-    SUBDIR += py-wicked
     SUBDIR += py-wordnet
     SUBDIR += py-wstools
     SUBDIR += py-wtf-peewee
@@ -1412,7 +1411,6 @@
     SUBDIR += py-xml-default-dict
     SUBDIR += py-xmldiff
     SUBDIR += py-yapf
-    SUBDIR += py-zope.app.i18n
     SUBDIR += py-zope.app.locales
     SUBDIR += py-zope.i18nmessageid
     SUBDIR += py-zope.structuredtext
@@ -1435,6 +1433,7 @@
     SUBDIR += re-flex
     SUBDIR += re_graph
     SUBDIR += redet
+    SUBDIR += redisearch
     SUBDIR += redland
     SUBDIR += redland-bindings
     SUBDIR += refdb
