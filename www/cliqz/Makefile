@@ -2,7 +2,7 @@
 
 PORTNAME=	cliqz
 DISTVERSION=	1.33.0
-PORTREVISION=	2
+PORTREVISION=	4
 CATEGORIES=	www
 MASTER_SITES=	https://s3.amazonaws.com/cdn.cliqz.com/browser-f/APT/:amazon \
 		http://repository.cliqz.com/dist/${CLIQZ_CHANNEL}/${DISTVERSION}/${CLIQZ_LAST_BUILD_ID}/:cliqz
@@ -20,6 +20,9 @@ COMMENT=	Secure browser (Mozilla based) with built-in quick search
 LICENSE=	MPL20
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
+DEPRECATED=	Uses deprecated version of python
+EXPIRATION_DATE=	2020-09-15
+
 FETCH_DEPENDS=	ca_root_nss>=0:security/ca_root_nss
 LIB_DEPENDS=	libdbus-1.so:devel/dbus \
 		libdbus-glib-1.so:devel/dbus-glib \
@@ -33,6 +36,7 @@ LIB_DEPENDS=	libdbus-1.so:devel/dbus \
 		libplds4.so:devel/nspr
 
 BUILD_DEPENDS=	${LOCALBASE}/libdata/pkgconfig/xt.pc:x11-toolkits/libXt \
+		${PYTHON_PKGNAMEPREFIX}sqlite3>0:databases/py-sqlite3@${PY_FLAVOR} \
 		${RUST_DEFAULT}>=1.39:lang/${RUST_DEFAULT} \
 		autoconf-2.13:devel/autoconf213 \
 		bash:shells/bash \

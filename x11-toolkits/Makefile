@@ -10,7 +10,6 @@
     SUBDIR += bwidget
     SUBDIR += c++-gtk-utils
     SUBDIR += ctk
-    SUBDIR += flowcanvas
     SUBDIR += fltk
     SUBDIR += fox14
     SUBDIR += fox16
@@ -172,8 +171,6 @@
     SUBDIR += py-easygui
     SUBDIR += py-fltk
     SUBDIR += py-gtk2
-    SUBDIR += py-gtkglext
-    SUBDIR += py-gtksourceview
     SUBDIR += py-qt5-gui
     SUBDIR += py-qt5-quick
     SUBDIR += py-qt5-quickwidgets

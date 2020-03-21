@@ -96,7 +96,6 @@
     SUBDIR += gcc-ecj45
     SUBDIR += gcc10-devel
     SUBDIR += gcc48
-    SUBDIR += gcc6
     SUBDIR += gcc6-aux
     SUBDIR += gcc7
     SUBDIR += gcc8
@@ -120,7 +119,6 @@
     SUBDIR += gnustep-base
     SUBDIR += go
     SUBDIR += go-devel
-    SUBDIR += go14
     SUBDIR += gomacro
     SUBDIR += gravity
     SUBDIR += groovy

@@ -606,7 +606,6 @@
     SUBDIR += pgtop
     SUBDIR += pgtune
     SUBDIR += pguri
-    SUBDIR += pgworksheet
     SUBDIR += php-tarantool
     SUBDIR += php-xapian
     SUBDIR += php72-dba
@@ -757,7 +756,6 @@
     SUBDIR += py-bsddb3
     SUBDIR += py-carbon
     SUBDIR += py-cassandra-driver
-    SUBDIR += py-cdb
     SUBDIR += py-couchdb
     SUBDIR += py-dbf
     SUBDIR += py-dbutils

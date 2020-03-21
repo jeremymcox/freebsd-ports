@@ -363,6 +363,7 @@
     SUBDIR += froxlor
     SUBDIR += fsbackup
     SUBDIR += fsc
+    SUBDIR += fselect
     SUBDIR += fsearch
     SUBDIR += fstyp
     SUBDIR += fswatch-mon
@@ -848,6 +849,7 @@
     SUBDIR += p5-arclog
     SUBDIR += p5-reslog
     SUBDIR += packer
+    SUBDIR += packmule
     SUBDIR += pacman
     SUBDIR += paicc
     SUBDIR += paladin
@@ -1071,6 +1073,7 @@
     SUBDIR += roottail
     SUBDIR += rovclock
     SUBDIR += rpi-firmware
+    SUBDIR += rsfetch
     SUBDIR += rshim-user-space
     SUBDIR += rsnapshot
     SUBDIR += rsyncbackup
@@ -1268,6 +1271,7 @@
     SUBDIR += syslog-ng323
     SUBDIR += syslog-ng324
     SUBDIR += syslog-ng325
+    SUBDIR += syslog-ng326
     SUBDIR += syslogger
     SUBDIR += sysrc
     SUBDIR += system-tools-backends

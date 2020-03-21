@@ -5,6 +5,70 @@ they are unavoidable.
 You should get into the habit of checking this file for changes each time
 you update your ports collection, before attempting any port upgrades.
 
+20200320
+  AFFECTS: users of devel/qca
+  AUTHOR: kde@FreeBSD.org
+
+  New versions of devel/qca stopped supporting OpenSSL < 1.1.
+  For this reason devel/qca-legacy has been added, which is
+  held back at an older version until FreeBSD 11 goes EOL.
+
+  Ports depending on devel/qca should stop adding direct LIB_DEPENDS
+  and switch to depending on it via USES=qca.
+
+  FreeBSD 11 users might want to run something like
+
+      pkg set -o devel/qca:devel/qca-legacy
+
+20200320:
+  AFFECTS: users of x11/libxkbcommon
+  AUTHOR: zeising@FreeBSD.org
+
+  The libxkbcommon library (x11/libxkbcommon), used to handle keyboards
+  in some applications, most notably kde and wayland, have been switched
+  to use evdev rules by default.  Some keys, most notably arrow keys, 
+  may not work in applications using libxkbcommon if you are using
+  xf86-input-keyboard rather than xf86-input-libinput.
+  If you have trouble with the keyboard keys, and if /var/log/Xorg.*.log
+  shows that the "kbd" or "keyboard" driver is being used, you need to
+  switch to legacy rules by setting the environment variable
+  XKB_DEFAULT_RULES to xorg.
+  This switch is made to match the default configuration on FreeBSD 12.1 and
+  later, the default configuration on FreeBSD 11.3 still requres the legacy
+  rules.
+
+20200316:
+  AFFECTS: users of net-im/slack-term
+  AUTHOR: dmgk@FreeBSD.org
+
+  The config file location was changed from ~/.slack-term to
+  ~/.config/slack-term/config, please move your existing config file
+  accordingly.
+
+20200308
+  AFFECTS: users of graphics/mesa-libs and legacy graphics drivers
+  AUTHOR: zeising@FreeBSD.org
+
+  The mesa OpenGL library (graphics/mesa-libs) has been switched to use DRI3
+  by default, instead of the older DRI2 interface.  This might cause regressions
+  when using the legacy graphics drivers, either through
+  graphics/drm-legacy-kmod or the graphics drivers in base.
+  
+  If you experience issues when running OpenGL applications it is possible
+  to force the use of DRI2 by setting the LIBGL_DRI3_DISABLE environment
+  variable to 1 before starting any OpenGL application.  The easiest way to
+  do this is by adding it to either your shell startup files or .xinitrc.
+
+20200306
+  AFFECTS: users of databases/mysql80-server
+  AUTHOR: joneum@FreeBSD.org
+
+  As of MySQL 8.0.16, the MySQL server performs the upgrade tasks previously
+  handled by mysql_upgrade. Consequently, mysql_upgrade is unneeded and is
+  deprecated as of that version, and will be removed in a future MySQL version.
+  Because mysql_upgrade no longer performs upgrade tasks,
+  it exits with status 0 unconditionally.
+
 20200303:
   AFFECTS: users of net-mgmt/librenms
   AUTHOR: dvl@FreeBSD.org
@@ -12,7 +76,7 @@ you update your ports collection, before attempting any port upgrades.
   1. Apache / mod_php options removed
 
   The APACHEMOD option has been removed. LibreNMS can be used
-  with other webservers, not just Apache. In other to simplify
+  with other webservers, not just Apache. In order to simplify
   the port, the option was removed.
 
   Now you manually install the webserver of your preference.
@@ -147,6 +211,28 @@ you update your ports collection, before attempting any port upgrades.
   x11-drivers/xf86-input-libinput are installed.  They are installed in the
   default configuration, but if you have a custom configuration, they might not
   be.
+
+20200210:
+  AFFECTS: users of net-im/prosody
+  AUTHOR: thomas@beingboiled.info
+
+  Prosody's pid file and data directory have moved to a new location.
+  If you are upgrading from a version with the pid file and data
+  directory in /usr/local/var/lib/prosody please perform these steps:
+
+    # stop Prosody
+    pkill -F /usr/local/var/lib/prosody/prosody.pid
+
+    # copy the data directory
+    cp -a /usr/local/var/lib/prosody /var/db/prosody
+    rm -f /var/db/prosody/prosody.pid
+
+  Make sure your prosody config has the following option set:
+
+    pidfile = "/var/run/prosody/prosody.pid"
+
+  Then start Prosody again. Everything should be working as before and
+  the /usr/local/var/lib/prosody directory can now be removed.
 
 20200207:
   AFFECTS: users of security/nss

@@ -12,6 +12,7 @@
     SUBDIR += anydesk
     SUBDIR += appwrapper
     SUBDIR += aspostit
+    SUBDIR += ausweisapp2
     SUBDIR += autocutsel
     SUBDIR += baobab
     SUBDIR += basket
@@ -216,7 +217,6 @@
     SUBDIR += spice-gtk
     SUBDIR += sugarcrm
     SUBDIR += synapse
-    SUBDIR += syncthing-gtk
     SUBDIR += syncthingtray
     SUBDIR += sysctlview
     SUBDIR += systempreferences

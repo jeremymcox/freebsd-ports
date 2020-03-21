@@ -23,6 +23,7 @@
     SUBDIR += R-cran-dygraphs
     SUBDIR += R-cran-farver
     SUBDIR += R-cran-ggplot2
+    SUBDIR += R-cran-ggrepel
     SUBDIR += R-cran-gridBase
     SUBDIR += R-cran-gridExtra
     SUBDIR += R-cran-munsell
@@ -340,6 +341,7 @@
     SUBDIR += ida
     SUBDIR += iec16022
     SUBDIR += iiview
+    SUBDIR += ikona
     SUBDIR += ilmbase
     SUBDIR += imageindex
     SUBDIR += imageviewer
@@ -804,6 +806,7 @@
     SUBDIR += py-gizeh
     SUBDIR += py-glewpy
     SUBDIR += py-glfw
+    SUBDIR += py-glooey
     SUBDIR += py-gphoto2
     SUBDIR += py-graph-core
     SUBDIR += py-graphviz
@@ -860,13 +863,14 @@
     SUBDIR += py-scikit-image
     SUBDIR += py-seqdiag
     SUBDIR += py-sorl-thumbnail
-    SUBDIR += py-soya3d
     SUBDIR += py-spectra
     SUBDIR += py-stltools
+    SUBDIR += py-svg.path
     SUBDIR += py-svgwrite
     SUBDIR += py-termtosvg
     SUBDIR += py-toyplot
     SUBDIR += py-traitsui
+    SUBDIR += py-vecrec
     SUBDIR += py-visvis
     SUBDIR += py-wand
     SUBDIR += py-webcolors

@@ -213,6 +213,17 @@
     SUBDIR += djbfft
     SUBDIR += drgeo
     SUBDIR += dsdp
+    SUBDIR += dune-alugrid
+    SUBDIR += dune-common
+    SUBDIR += dune-functions
+    SUBDIR += dune-geometry
+    SUBDIR += dune-grid
+    SUBDIR += dune-istl
+    SUBDIR += dune-localfunctions
+    SUBDIR += dune-pdelab
+    SUBDIR += dune-spgrid
+    SUBDIR += dune-typetree
+    SUBDIR += dune-uggrid
     SUBDIR += e
     SUBDIR += ecos
     SUBDIR += edenmath
@@ -293,6 +304,7 @@
     SUBDIR += hmat-oss
     SUBDIR += hpipm
     SUBDIR += hs-Agda
+    SUBDIR += hs-penrose
     SUBDIR += hs-semigroups
     SUBDIR += ideep
     SUBDIR += ignition-math
@@ -699,6 +711,7 @@
     SUBDIR += py-bottleneck
     SUBDIR += py-cdecimal
     SUBDIR += py-chaospy
+    SUBDIR += py-claripy
     SUBDIR += py-cma
     SUBDIR += py-colormath
     SUBDIR += py-cryptominisat
@@ -768,6 +781,7 @@
     SUBDIR += py-pynndescent
     SUBDIR += py-pyodeint
     SUBDIR += py-pyodesys
+    SUBDIR += py-pysmt
     SUBDIR += py-pysparse
     SUBDIR += py-pystan
     SUBDIR += py-pysym
@@ -794,6 +808,7 @@
     SUBDIR += py-symcxx
     SUBDIR += py-sympy
     SUBDIR += py-theano
+    SUBDIR += py-triangle
     SUBDIR += py-ufl
     SUBDIR += py-uncertainties
     SUBDIR += py-vincenty

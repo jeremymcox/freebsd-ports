@@ -1469,6 +1469,7 @@
     SUBDIR += toonel
     SUBDIR += torsocks
     SUBDIR += traefik
+    SUBDIR += traefik2
     SUBDIR += traff
     SUBDIR += trafshow
     SUBDIR += trafshow3
@@ -1484,6 +1485,7 @@
     SUBDIR += twitux
     SUBDIR += u6rd
     SUBDIR += ucarp
+    SUBDIR += udpbroadcastrelay
     SUBDIR += udptunnel
     SUBDIR += udpxy
     SUBDIR += udt
