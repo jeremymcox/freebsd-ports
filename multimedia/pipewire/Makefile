@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	pipewire
-DISTVERSION=	0.3.1
+DISTVERSION=	0.3.2
 CATEGORIES=	multimedia
 
 MAINTAINER=	arrowd@FreeBSD.org
@@ -17,7 +17,7 @@ LIB_DEPENDS=	libasound.so:audio/alsa-lib \
 		libepoll-shim.so:devel/libepoll-shim \
 		libudev.so:devel/libudev-devd
 
-USES=		gnome meson pkgconfig
+USES=		compiler:c11 gnome meson pkgconfig
 
 USE_GNOME=	glib20
 USE_LDCONFIG=	yes
