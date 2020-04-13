@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	vscode
-DISTVERSION=	1.43.0
-PORTREVISION=	1
+DISTVERSION=	1.43.2
 CATEGORIES=	editors
 MASTER_SITES=	https://nodejs.org/dist/v${NODE_VER}/:node_headers \
 		https://github.com/tagattie/FreeBSD-VSCode/releases/download/${DISTVERSION}/:yarn_cache
@@ -11,7 +10,7 @@ DISTFILES=	node-v${NODE_VER}-headers${EXTRACT_SUFX}:node_headers \
 		vscode-marketplace-exts-${DISTVERSION}${EXTRACT_SUFX}:yarn_cache
 DIST_SUBDIR=	${PORTNAME}
 
-MAINTAINER=	tagattie@yandex.com
+MAINTAINER=	tagattie@FreeBSD.org
 COMMENT=	Visual Studio Code - Open Source ("Code - OSS")
 
 LICENSE=	MIT
@@ -62,7 +61,7 @@ USES=		desktop-file-utils gl gmake gnome jpeg pkgconfig \
 USE_GITHUB=	yes
 GH_ACCOUNT=	microsoft
 
-SOURCE_COMMIT_HASH=	78a4c91400152c0f27ba4d363eb56d2835f9903a
+SOURCE_COMMIT_HASH=	fe22a9645b44368865c0ba92e2fb881ff1afce94
 
 BINARY_ALIAS=	python=${PYTHON_CMD}
 

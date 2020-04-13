@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	chromium
-PORTVERSION=	80.0.3987.132
-PORTREVISION=	1
+PORTVERSION=	81.0.4044.92
 CATEGORIES?=	www java
 MASTER_SITES=	https://commondatastorage.googleapis.com/chromium-browser-official/ \
 		LOCAL/cpm/chromium/:fonts
@@ -111,13 +110,11 @@ GN_ARGS+=	clang_use_chrome_plugins=false \
 		enable_remoting=false \
 		fieldtrial_testing_like_official_build=true \
 		is_clang=true \
-		jumbo_file_merge_limit=8 \
 		toolkit_views=true \
 		treat_warnings_as_errors=false \
 		use_allocator="none" \
 		use_allocator_shim=false \
 		use_aura=true \
-		use_bundled_fontconfig=false \
 		use_custom_libcxx=false \
 		use_gnome_keyring=false \
 		use_lld=true \
@@ -159,11 +156,9 @@ ALSA_VARS=		GN_ARGS+=use_alsa=true
 ALSA_VARS_OFF=		GN_ARGS+=use_alsa=false
 
 CODECS_VARS=		GN_ARGS+=ffmpeg_branding="Chrome" \
-			GN_ARGS+=proprietary_codecs=true \
-			GN_ARGS+=enable_platform_hevc=true
+			GN_ARGS+=proprietary_codecs=true
 CODECS_VARS_OFF=	GN_ARGS+=ffmpeg_branding="Chromium" \
-			GN_ARGS+=proprietary_codecs=false \
-			GN_ARGS+=enable_platform_hevc=false
+			GN_ARGS+=proprietary_codecs=false
 
 CUPS_LIB_DEPENDS=	libcups.so:print/cups
 CUPS_VARS=		GN_ARGS+=use_cups=true
