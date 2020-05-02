@@ -17,7 +17,6 @@
     SUBDIR += arpwatch
     SUBDIR += arts++
     SUBDIR += bandwidthd
-    SUBDIR += bgpq
     SUBDIR += bgpq3
     SUBDIR += bgpq4
     SUBDIR += bgpuma
@@ -299,6 +298,8 @@
     SUBDIR += prometheus2
     SUBDIR += pushgateway
     SUBDIR += py-adal
+    SUBDIR += py-aggregate6
+    SUBDIR += py-arouteserver
     SUBDIR += py-ciscoconfparse
     SUBDIR += py-dnsdiag
     SUBDIR += py-ipcalc

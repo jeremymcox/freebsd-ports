@@ -63,7 +63,6 @@
     SUBDIR += bnxt-kmod
     SUBDIR += boinc-client
     SUBDIR += boinc_curses
-    SUBDIR += boringtun
     SUBDIR += bosh-bootloader
     SUBDIR += bosh-cli
     SUBDIR += bounce
@@ -149,6 +148,7 @@
     SUBDIR += erlang-xmlrpc
     SUBDIR += eternalterminal
     SUBDIR += etrace
+    SUBDIR += evans
     SUBDIR += eventviews
     SUBDIR += exabgp
     SUBDIR += exabgp4
@@ -552,7 +552,6 @@
     SUBDIR += openldap24-server
     SUBDIR += openmdns
     SUBDIR += openmpi
-    SUBDIR += openmpi2
     SUBDIR += openmpi3
     SUBDIR += openntpd
     SUBDIR += opennx
@@ -1070,7 +1069,6 @@
     SUBDIR += py-oauth2
     SUBDIR += py-paho-mqtt
     SUBDIR += py-pamqp
-    SUBDIR += py-pcap
     SUBDIR += py-pcapy
     SUBDIR += py-port-for
     SUBDIR += py-portend
@@ -1099,6 +1097,7 @@
     SUBDIR += py-python-keystoneclient
     SUBDIR += py-python-neutronclient
     SUBDIR += py-python-novaclient
+    SUBDIR += py-python-novaclient16
     SUBDIR += py-python-ntlm
     SUBDIR += py-python-openstackclient
     SUBDIR += py-python-twitter
@@ -1117,7 +1116,7 @@
     SUBDIR += py-s3transfer
     SUBDIR += py-sbws
     SUBDIR += py-shodan
-    SUBDIR += py-smart_open
+    SUBDIR += py-smart-open
     SUBDIR += py-smbpasswd
     SUBDIR += py-soap2py
     SUBDIR += py-socketio-client
@@ -1140,6 +1139,7 @@
     SUBDIR += py-urllib3
     SUBDIR += py-wmi-query
     SUBDIR += py-wolframalpha
+    SUBDIR += py-wsdd
     SUBDIR += py-wsproto
     SUBDIR += py-zeep
     SUBDIR += py-zeroconf
@@ -1240,6 +1240,7 @@
     SUBDIR += rubygem-fog-dynect
     SUBDIR += rubygem-fog-ecloud
     SUBDIR += rubygem-fog-google
+    SUBDIR += rubygem-fog-google19
     SUBDIR += rubygem-fog-gridscale
     SUBDIR += rubygem-fog-internet-archive
     SUBDIR += rubygem-fog-joyent
@@ -1387,6 +1388,7 @@
     SUBDIR += skstream
     SUBDIR += sl2tps
     SUBDIR += slurm
+    SUBDIR += smb4k
     SUBDIR += smcroute
     SUBDIR += smm++
     SUBDIR += sngrep

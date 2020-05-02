@@ -4,9 +4,9 @@
     COMMENT = System utilities
 
     SUBDIR += 3dm
+    SUBDIR += 3mux
     SUBDIR += 44bsd-more
     SUBDIR += 915resolution
-    SUBDIR += DTraceToolkit
     SUBDIR += LPRng
     SUBDIR += LPRngTool
     SUBDIR += UEFITool
@@ -14,6 +14,7 @@
     SUBDIR += abduco
     SUBDIR += abgx360
     SUBDIR += abgx360gui
+    SUBDIR += accounts-qml-module
     SUBDIR += accountsservice
     SUBDIR += acerhdf-kmod
     SUBDIR += acpi_call
@@ -44,6 +45,7 @@
     SUBDIR += ansible25
     SUBDIR += ansible26
     SUBDIR += ansible27
+    SUBDIR += ansible28
     SUBDIR += anvil
     SUBDIR += apache-mesos
     SUBDIR += apachetop
@@ -260,6 +262,7 @@
     SUBDIR += docker-compose
     SUBDIR += docker-credential-pass
     SUBDIR += docker-machine
+    SUBDIR += docker-registry
     SUBDIR += doctl
     SUBDIR += doinkd
     SUBDIR += dolly
@@ -275,6 +278,7 @@
     SUBDIR += dsbwrtsysctl
     SUBDIR += dtc
     SUBDIR += dtpstree
+    SUBDIR += dtrace-toolkit
     SUBDIR += du2ps
     SUBDIR += dua-cli
     SUBDIR += duff
@@ -634,6 +638,7 @@
     SUBDIR += lxterminal
     SUBDIR += mac_nonet
     SUBDIR += mac_rtprio
+    SUBDIR += mackerel-agent
     SUBDIR += magicrescue
     SUBDIR += manck
     SUBDIR += mapchan
@@ -681,6 +686,7 @@
     SUBDIR += minipro
     SUBDIR += minirsyslogd
     SUBDIR += mixer
+    SUBDIR += mkdesktop
     SUBDIR += mkfile
     SUBDIR += mkfwimage
     SUBDIR += mkntpwd
@@ -762,6 +768,7 @@
     SUBDIR += ods2
     SUBDIR += ohmu
     SUBDIR += omnibackup
+    SUBDIR += onefetch
     SUBDIR += open
     SUBDIR += opencorsairlink
     SUBDIR += openipmi
@@ -858,6 +865,7 @@
     SUBDIR += panicmail
     SUBDIR += parafly
     SUBDIR += parallel
+    SUBDIR += parkverbot
     SUBDIR += pass-otp
     SUBDIR += pass-update
     SUBDIR += password-store
@@ -980,7 +988,6 @@
     SUBDIR += py-glances
     SUBDIR += py-gmailfs-fuse
     SUBDIR += py-google-compute-engine
-    SUBDIR += py-halite
     SUBDIR += py-hared
     SUBDIR += py-hcloud
     SUBDIR += py-honcho
@@ -1134,6 +1141,7 @@
     SUBDIR += rubygem-ohai8
     SUBDIR += rubygem-parallel
     SUBDIR += rubygem-puppet_forge
+    SUBDIR += rubygem-puppetfile-resolver
     SUBDIR += rubygem-puppetserver-ca
     SUBDIR += rubygem-r10k
     SUBDIR += rubygem-rubyipmi
@@ -1360,6 +1368,7 @@
     SUBDIR += u-boot-pine64
     SUBDIR += u-boot-pine64-lts
     SUBDIR += u-boot-pinebook
+    SUBDIR += u-boot-pinebookpro
     SUBDIR += u-boot-qemu-arm
     SUBDIR += u-boot-riotboard
     SUBDIR += u-boot-rock64
