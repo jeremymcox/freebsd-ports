@@ -1,3 +1,3 @@
-TIMESTAMP = 1586415616
-SHA256 (snakemake-5.14.0.tar.gz) = b11b7ac30808f573883d5db79595ac62db6d1416b24fd71e1a27dc7b3e5678e8
-SIZE (snakemake-5.14.0.tar.gz) = 210738
+TIMESTAMP = 1588295725
+SHA256 (snakemake-5.16.0.tar.gz) = 671480fcbf7489b6af07bd845bc89cbf98255e5969fa337e2fbbbdb0901f8e4a
+SIZE (snakemake-5.16.0.tar.gz) = 212977

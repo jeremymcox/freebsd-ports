@@ -269,6 +269,7 @@
     SUBDIR += jesred
     SUBDIR += jetty8
     SUBDIR += jetty9
+    SUBDIR += jitsi-meet
     SUBDIR += jmeter
     SUBDIR += joomla3
     SUBDIR += jspwiki
@@ -1453,7 +1454,6 @@
     SUBDIR += py-cssmin
     SUBDIR += py-cssselect
     SUBDIR += py-cssutils
-    SUBDIR += py-ddgr
     SUBDIR += py-dj22-django-auth-ldap
     SUBDIR += py-dj22-django-cacheops
     SUBDIR += py-dj22-django-cors-headers
@@ -1758,6 +1758,7 @@
     SUBDIR += py-scrapy
     SUBDIR += py-seafdav
     SUBDIR += py-seafobj
+    SUBDIR += py-secure-cookie
     SUBDIR += py-selector
     SUBDIR += py-selenium
     SUBDIR += py-slimit
@@ -2110,6 +2111,7 @@
     SUBDIR += rubygem-roda
     SUBDIR += rubygem-rqrcode
     SUBDIR += rubygem-rqrcode-rails3
+    SUBDIR += rubygem-rss
     SUBDIR += rubygem-rtlit
     SUBDIR += rubygem-ruby-oembed
     SUBDIR += rubygem-ruby-readability
@@ -2323,6 +2325,7 @@
     SUBDIR += twiki-TwistyPlugin
     SUBDIR += twiki-WysiwygPlugin
     SUBDIR += twms
+    SUBDIR += typo3-10
     SUBDIR += typo3-8
     SUBDIR += typo3-9
     SUBDIR += uchiwa
@@ -2338,6 +2341,7 @@
     SUBDIR += varnish-libvmod-awsrest
     SUBDIR += varnish-libvmod-digest
     SUBDIR += varnish-libvmod-dynamic
+    SUBDIR += varnish-libvmod-maxminddb
     SUBDIR += varnish-modules
     SUBDIR += varnish-nagios
     SUBDIR += varnish4

@@ -238,6 +238,7 @@
     SUBDIR += eigen2
     SUBDIR += eigen3
     SUBDIR += eispack
+    SUBDIR += elemental
     SUBDIR += elpa
     SUBDIR += emc2
     SUBDIR += ensmallen
@@ -310,6 +311,7 @@
     SUBDIR += gringo
     SUBDIR += grpn
     SUBDIR += gsl
+    SUBDIR += half
     SUBDIR += hexcalc
     SUBDIR += hipmcl
     SUBDIR += hmat-oss
@@ -356,6 +358,7 @@
     SUBDIR += libbraiding
     SUBDIR += libccd
     SUBDIR += libflame
+    SUBDIR += libhomfly
     SUBDIR += liblbfgs
     SUBDIR += libmesh
     SUBDIR += libmissing
@@ -375,6 +378,7 @@
     SUBDIR += libxlsxwriter
     SUBDIR += libxsmm
     SUBDIR += lidia
+    SUBDIR += linbox
     SUBDIR += linpack
     SUBDIR += lis
     SUBDIR += lll_spect
@@ -716,6 +720,15 @@
     SUBDIR += prng
     SUBDIR += proofgeneral
     SUBDIR += pspp
+    SUBDIR += py-CyLP
+    SUBDIR += py-Diofant
+    SUBDIR += py-GridDataFormats
+    SUBDIR += py-MutatorMath
+    SUBDIR += py-PuLP
+    SUBDIR += py-PyMetis
+    SUBDIR += py-PySCIPOpt
+    SUBDIR += py-PyWavelets
+    SUBDIR += py-Pyomo
     SUBDIR += py-algopy
     SUBDIR += py-altgraph
     SUBDIR += py-apgl
@@ -736,9 +749,7 @@
     SUBDIR += py-cvxopt
     SUBDIR += py-cvxpy
     SUBDIR += py-cyipopt
-    SUBDIR += py-CyLP
     SUBDIR += py-deap
-    SUBDIR += py-Diofant
     SUBDIR += py-ecos
     SUBDIR += py-fastcluster
     SUBDIR += py-fastdtw
@@ -751,7 +762,6 @@
     SUBDIR += py-gmpy2
     SUBDIR += py-grandalf
     SUBDIR += py-graphillion
-    SUBDIR += py-GridDataFormats
     SUBDIR += py-gym
     SUBDIR += py-hdbscan
     SUBDIR += py-igakit
@@ -769,7 +779,6 @@
     SUBDIR += py-mpmath
     SUBDIR += py-munkres
     SUBDIR += py-munkres10
-    SUBDIR += py-MutatorMath
     SUBDIR += py-networkx
     SUBDIR += py-networkx1
     SUBDIR += py-nevergrad
@@ -787,26 +796,22 @@
     SUBDIR += py-piranha
     SUBDIR += py-plastex
     SUBDIR += py-primme
-    SUBDIR += py-PuLP
+    SUBDIR += py-pyFFTW
     SUBDIR += py-pyasp
     SUBDIR += py-pybloom
     SUBDIR += py-pyclipper
     SUBDIR += py-pycosat
-    SUBDIR += py-pyFFTW
     SUBDIR += py-pygsl
     SUBDIR += py-pygslodeiv2
     SUBDIR += py-pyhull
     SUBDIR += py-pyipopt
     SUBDIR += py-pymc
     SUBDIR += py-pymc3
-    SUBDIR += py-PyMetis
     SUBDIR += py-pyneqsys
     SUBDIR += py-pynleq2
     SUBDIR += py-pynndescent
     SUBDIR += py-pyodeint
     SUBDIR += py-pyodesys
-    SUBDIR += py-Pyomo
-    SUBDIR += py-PySCIPOpt
     SUBDIR += py-pysmt
     SUBDIR += py-pysparse
     SUBDIR += py-pystan
@@ -814,7 +819,6 @@
     SUBDIR += py-python-fcl
     SUBDIR += py-python-louvain
     SUBDIR += py-pyvtk
-    SUBDIR += py-PyWavelets
     SUBDIR += py-quadprog
     SUBDIR += py-random2
     SUBDIR += py-rapi
@@ -932,6 +936,7 @@
     SUBDIR += vowpal_wabbit
     SUBDIR += vtk6
     SUBDIR += vtk8
+    SUBDIR += vtk9
     SUBDIR += wavelib
     SUBDIR += wcalc
     SUBDIR += wfmath
