@@ -81,6 +81,7 @@
     SUBDIR += cyrus-imapd24
     SUBDIR += cyrus-imapd25
     SUBDIR += cyrus-imapd30
+    SUBDIR += cyrus-imapd32
     SUBDIR += cyrus2courier
     SUBDIR += cyrus2dovecot
     SUBDIR += davmail
@@ -503,8 +504,8 @@
     SUBDIR += py-authres
     SUBDIR += py-cyruslib
     SUBDIR += py-dkimpy
-    SUBDIR += py-email_reply_parser
     SUBDIR += py-email-validator
+    SUBDIR += py-email_reply_parser
     SUBDIR += py-flask-mail
     SUBDIR += py-flufl.bounce
     SUBDIR += py-fuglu

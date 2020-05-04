@@ -300,6 +300,7 @@
     SUBDIR += libnghttp2
     SUBDIR += libnghttp3
     SUBDIR += libresonic-standalone
+    SUBDIR += librespeed
     SUBDIR += librtcdcpp
     SUBDIR += libwpe
     SUBDIR += libwww
@@ -1417,6 +1418,7 @@
     SUBDIR += py-WebTest
     SUBDIR += py-aioh2
     SUBDIR += py-aiohttp
+    SUBDIR += py-aiohttp-middlewares
     SUBDIR += py-aiohttp-wsgi
     SUBDIR += py-aiohttp2
     SUBDIR += py-aiohttp_cors
@@ -2153,6 +2155,7 @@
     SUBDIR += rubygem-webdrivers
     SUBDIR += rubygem-webmock
     SUBDIR += rubygem-webpack-rails-rails60
+    SUBDIR += rubygem-webrick
     SUBDIR += rubygem-webrobots
     SUBDIR += rubygem-websocket
     SUBDIR += rubygem-websocket-driver
