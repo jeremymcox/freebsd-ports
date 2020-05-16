@@ -720,6 +720,7 @@
     SUBDIR += py-PySCIPOpt
     SUBDIR += py-PyWavelets
     SUBDIR += py-Pyomo
+    SUBDIR += py-affine
     SUBDIR += py-algopy
     SUBDIR += py-altgraph
     SUBDIR += py-apgl
@@ -739,6 +740,7 @@
     SUBDIR += py-cvxopt
     SUBDIR += py-cvxpy
     SUBDIR += py-cyipopt
+    SUBDIR += py-cypari2
     SUBDIR += py-deap
     SUBDIR += py-ecos
     SUBDIR += py-fastcluster
@@ -746,6 +748,7 @@
     SUBDIR += py-ffc
     SUBDIR += py-fiat
     SUBDIR += py-fpconst
+    SUBDIR += py-fpylll
     SUBDIR += py-gau2grid
     SUBDIR += py-gimmik
     SUBDIR += py-gmpy
@@ -754,6 +757,7 @@
     SUBDIR += py-graphillion
     SUBDIR += py-gym
     SUBDIR += py-hdbscan
+    SUBDIR += py-hdmedians
     SUBDIR += py-igraph
     SUBDIR += py-intspan
     SUBDIR += py-keras
@@ -819,6 +823,7 @@
     SUBDIR += py-secp256k1
     SUBDIR += py-simhash
     SUBDIR += py-slepc4py
+    SUBDIR += py-snuggs
     SUBDIR += py-spectral
     SUBDIR += py-spot
     SUBDIR += py-statsmodels
