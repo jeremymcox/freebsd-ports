@@ -72,6 +72,7 @@
     SUBDIR += ccsrch
     SUBDIR += certificate-transparency
     SUBDIR += cfs
+    SUBDIR += cfssl
     SUBDIR += chaosreader
     SUBDIR += checkpassword
     SUBDIR += checkpassword-pam
@@ -154,6 +155,7 @@
     SUBDIR += fcrackzip
     SUBDIR += fiked
     SUBDIR += find-zlib
+    SUBDIR += fizz
     SUBDIR += fl0p
     SUBDIR += flawfinder
     SUBDIR += fpc-openssl
@@ -1061,6 +1063,7 @@
     SUBDIR += rubygem-gssapi
     SUBDIR += rubygem-hkdf
     SUBDIR += rubygem-hrr_rb_ssh
+    SUBDIR += rubygem-lockbox
     SUBDIR += rubygem-metasploit-aggregator
     SUBDIR += rubygem-metasploit-concern
     SUBDIR += rubygem-metasploit-credential

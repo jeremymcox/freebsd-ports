@@ -213,6 +213,8 @@
     SUBDIR += gastex
     SUBDIR += gd-aspell
     SUBDIR += gdome2
+    SUBDIR += git-chglog
+    SUBDIR += gitlab-elasticsearch-indexer
     SUBDIR += gl-aspell
     SUBDIR += gladtex
     SUBDIR += gmetadom
@@ -1242,6 +1244,7 @@
     SUBDIR += py-errorhandler
     SUBDIR += py-esmre
     SUBDIR += py-et_xmlfile
+    SUBDIR += py-fastavro
     SUBDIR += py-feedparser
     SUBDIR += py-fingerprints
     SUBDIR += py-ftfy
@@ -1261,6 +1264,8 @@
     SUBDIR += py-isbnlib
     SUBDIR += py-isbntools
     SUBDIR += py-iso-639
+    SUBDIR += py-iso3166
+    SUBDIR += py-jc
     SUBDIR += py-jinja2-cli
     SUBDIR += py-jsonslicer
     SUBDIR += py-jsx-lexer
@@ -1294,6 +1299,7 @@
     SUBDIR += py-pager
     SUBDIR += py-pandocfilters
     SUBDIR += py-paragrep
+    SUBDIR += py-parse
     SUBDIR += py-parsel
     SUBDIR += py-parsimonious
     SUBDIR += py-parso
@@ -1352,6 +1358,8 @@
     SUBDIR += py-snowballstemmer
     SUBDIR += py-sparqlwrapper
     SUBDIR += py-sphinx
+    SUBDIR += py-sphinx-autoapi
+    SUBDIR += py-sphinx-autodoc-typehints
     SUBDIR += py-sphinx-hieroglyph
     SUBDIR += py-sphinx-intl
     SUBDIR += py-sphinx-me
@@ -1368,6 +1376,7 @@
     SUBDIR += py-sphinxcontrib-htmlhelp
     SUBDIR += py-sphinxcontrib-httpdomain
     SUBDIR += py-sphinxcontrib-jsmath
+    SUBDIR += py-sphinxcontrib-napoleon
     SUBDIR += py-sphinxcontrib-newsfeed
     SUBDIR += py-sphinxcontrib-programoutput
     SUBDIR += py-sphinxcontrib-qthelp
@@ -1639,6 +1648,7 @@
     SUBDIR += rubygem-twitter-text1
     SUBDIR += rubygem-unf
     SUBDIR += rubygem-unf_ext
+    SUBDIR += rubygem-unicode_plot
     SUBDIR += rubygem-version_sorter
     SUBDIR += rubygem-whatlanguage
     SUBDIR += rubygem-wikicloth
@@ -1685,7 +1695,6 @@
     SUBDIR += sgrep2
     SUBDIR += sift
     SUBDIR += sigil
-    SUBDIR += simplexml
     SUBDIR += sk-aspell
     SUBDIR += sk-hunspell
     SUBDIR += sk-hyphen

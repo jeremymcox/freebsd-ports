@@ -22,6 +22,7 @@
     SUBDIR += R-cran-snow
     SUBDIR += R-cran-som
     SUBDIR += R-cran-udunits2
+    SUBDIR += abinit
     SUBDIR += afni
     SUBDIR += agrum
     SUBDIR += aircraft-datcom
@@ -53,6 +54,7 @@
     SUBDIR += code_saturne
     SUBDIR += colt
     SUBDIR += coordgenlibs
+    SUBDIR += cp2k
     SUBDIR += cp2k-data
     SUBDIR += crf++
     SUBDIR += dalton
@@ -75,6 +77,7 @@
     SUBDIR += erkale-pseudopotentials
     SUBDIR += fastcap
     SUBDIR += fasthenry
+    SUBDIR += fastjet
     SUBDIR += fisicalab
     SUBDIR += fleur
     SUBDIR += fsom
@@ -101,6 +104,7 @@
     SUBDIR += hdf5
     SUBDIR += hdf5-18
     SUBDIR += healpix
+    SUBDIR += hepmc3
     SUBDIR += highfive
     SUBDIR += hypre
     SUBDIR += iboview
@@ -338,6 +342,7 @@
     SUBDIR += xcrysden
     SUBDIR += xdrawchem
     SUBDIR += xfce4-equake-plugin
+    SUBDIR += xtb
     SUBDIR += yoda
 
 .include <bsd.port.subdir.mk>
