@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	nginx
-PORTVERSION=	1.18.0
-PORTREVISION=	16
+PORTVERSION=	1.19.0
 CATEGORIES=	www
 MASTER_SITES=	https://nginx.org/download/ \
 		LOCAL/osa
@@ -55,7 +54,8 @@ CONFIGURE_ARGS+=--prefix=${ETCDIR} \
 		--sbin-path=${PREFIX}/sbin/nginx \
 		--pid-path=${NGINX_RUNDIR}/nginx.pid \
 		--error-log-path=${NGINX_ERRORLOG} \
-		--user=${WWWOWN} --group=${WWWGRP}
+		--user=${WWWOWN} --group=${WWWGRP} \
+		--with-compat
 ALL_TARGET=
 
 PLIST_SUB+=	NGINX_TMPDIR=${NGINX_TMPDIR} NGINX_LOGDIR=${NGINX_LOGDIR} WWWOWN=${WWWOWN} WWWGRP=${WWWGRP}
