@@ -390,6 +390,7 @@
     SUBDIR += fusefs-s3backer
     SUBDIR += fusefs-s3fs
     SUBDIR += fusefs-sandboxfs
+    SUBDIR += fusefs-securefs
     SUBDIR += fusefs-simple-mtpfs
     SUBDIR += fusefs-smbnetfs
     SUBDIR += fusefs-sqlfs
@@ -1261,6 +1262,7 @@
     SUBDIR += syslog-ng325
     SUBDIR += syslog-ng326
     SUBDIR += syslog-ng327
+    SUBDIR += syslog-ng328
     SUBDIR += syslogger
     SUBDIR += sysrc
     SUBDIR += system-tools-backends
