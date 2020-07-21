@@ -46,6 +46,7 @@
     SUBDIR += R-cran-coda
     SUBDIR += R-cran-combinat
     SUBDIR += R-cran-conf.design
+    SUBDIR += R-cran-conquer
     SUBDIR += R-cran-ddalpha
     SUBDIR += R-cran-deldir
     SUBDIR += R-cran-dimRed
@@ -76,6 +77,7 @@
     SUBDIR += R-cran-lme4
     SUBDIR += R-cran-lpSolve
     SUBDIR += R-cran-magic
+    SUBDIR += R-cran-matrixStats
     SUBDIR += R-cran-maxLik
     SUBDIR += R-cran-mcmc
     SUBDIR += R-cran-memisc
@@ -524,6 +526,7 @@
     SUBDIR += opensolaris-libm
     SUBDIR += openturns
     SUBDIR += optpp
+    SUBDIR += or-tools
     SUBDIR += orpie
     SUBDIR += osi
     SUBDIR += osqp
@@ -578,6 +581,7 @@
     SUBDIR += p5-Math-GMPf
     SUBDIR += p5-Math-GMPq
     SUBDIR += p5-Math-GMPz
+    SUBDIR += p5-Math-GSL
     SUBDIR += p5-Math-Geometry
     SUBDIR += p5-Math-Geometry-Planar
     SUBDIR += p5-Math-Geometry-Planar-GPC
