@@ -2,7 +2,6 @@
 
 PORTNAME=	openjdk
 PORTVERSION=	${JDK_MAJOR_VERSION}.${JDK_UPDATE_VERSION}.${JDK_BUILD_NUMBER}.${BSD_JDK_VERSION}
-PORTREVISION=	1
 CATEGORIES=	java devel
 MASTER_SITES=	LOCAL/jkim:jtreg
 PKGNAMESUFFIX?=	${JDK_MAJOR_VERSION}
@@ -52,11 +51,13 @@ INSTALLDIR=	${PREFIX}/${PKGBASE}
 NOPRECIOUSMAKEVARS=	yes
 
 JDK_MAJOR_VERSION=	8
-JDK_UPDATE_VERSION=	252
-JDK_BUILD_NUMBER=	09
+JDK_UPDATE_VERSION=	262
+JDK_BUILD_NUMBER=	10
 BSD_JDK_VERSION=	1
 JTREG_VERSION=		4.1
 JTREG_BUILD_NUMBER=	b08
+
+JDK_BUG_URL=		https://bugs.freebsd.org/bugzilla/enter_bug.cgi?product=Ports%20%26%20Packages&component=Individual%20Port(s)&short_desc=java/${PORTNAME}${JDK_MAJOR_VERSION}%3A%20
 
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS=		--with-boot-jdk=${BOOTSTRAPJDKDIR}
@@ -64,6 +65,10 @@ CONFIGURE_ARGS+=	--with-build-number="b${JDK_BUILD_NUMBER}"
 .if ${JDK_UPDATE_VERSION} > 0
 CONFIGURE_ARGS+=	--with-update-version=${JDK_UPDATE_VERSION}
 .endif
+CONFIGURE_ARGS+=	--with-vendor-name="OpenJDK BSD Porting Team" \
+			--with-vendor-url="https://github.com/${GH_ACCOUNT}/${GH_PROJECT}/" \
+			--with-vendor-bug-url="${JDK_BUG_URL}" \
+			--with-vendor-vm-bug-url="${JDK_BUG_URL}"
 .if defined(NO_CCACHE)
 CONFIGURE_ARGS+=	--disable-ccache
 .endif

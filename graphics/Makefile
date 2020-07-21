@@ -173,6 +173,7 @@
     SUBDIR += exiftran
     SUBDIR += exiv2
     SUBDIR += exrtools
+    SUBDIR += f3d
     SUBDIR += facedetect
     SUBDIR += farbfeld
     SUBDIR += feh
@@ -890,6 +891,7 @@
     SUBDIR += py-webcolors
     SUBDIR += py-willow
     SUBDIR += py-yaswfp
+    SUBDIR += py-zbar-py
     SUBDIR += pymorph
     SUBDIR += qcomicbook
     SUBDIR += qcustomplot-qt5
@@ -906,6 +908,7 @@
     SUBDIR += qt5-wayland
     SUBDIR += qtawesome
     SUBDIR += qtpbfimageplugin
+    SUBDIR += qtqr
     SUBDIR += quat
     SUBDIR += quat-gui
     SUBDIR += quesa
@@ -1062,8 +1065,10 @@
     SUBDIR += waifu2x-converter-cpp
     SUBDIR += waifu2x-ncnn-vulkan
     SUBDIR += wayland
+    SUBDIR += wayland-info
     SUBDIR += wayland-protocols
     SUBDIR += waylandpp
+    SUBDIR += wdune
     SUBDIR += webp
     SUBDIR += webp-pixbuf-loader
     SUBDIR += wings
