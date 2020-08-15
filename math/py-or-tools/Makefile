@@ -3,6 +3,7 @@
 PORTNAME=	or-tools
 DISTVERSIONPREFIX=	v
 DISTVERSION=	7.7
+PORTREVISION=	1
 CATEGORIES=	math
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
@@ -11,6 +12,8 @@ COMMENT=	Google's Operations Research tools (Python binding)
 
 LICENSE=	APACHE20
 LICENSE_FILE=	${WRKSRC}/LICENSE-2.0.txt
+
+BROKEN_i386=	SWIG wrapped code invalid in 32 bit architecture, regenerate code using -DSWIGWORDSIZE32 # see https://github.com/google/or-tools/issues/2130
 
 PY_DEPENDS=	${PYTHON_PKGNAMEPREFIX}protobuf>0:devel/py-protobuf@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}six>0:devel/py-six@${PY_FLAVOR}
@@ -31,6 +34,7 @@ RUN_DEPENDS=	${PY_DEPENDS}
 USES=		blaslapack cmake compiler:c++11-lang pkgconfig python
 USE_GITHUB=	yes
 GH_ACCOUNT=	google
+USE_PYTHON=	flavors
 
 CMAKE_OFF=	BUILD_DEPS INSTALL_BUILD_DEPS BUILD_EXAMPLES
 CMAKE_ON=	BUILD_PYTHON
@@ -44,7 +48,7 @@ post-configure: # https://github.com/google/or-tools/issues/2109
 do-install: # by default cmake installs the whole or-tools project without the python part, so extract the wheel and install python files manually here
 	${MKDIR} ${STAGEDIR}${PYTHONPREFIX_SITELIBDIR}
 	cd ${STAGEDIR}${PYTHONPREFIX_SITELIBDIR} && \
-		unzip ${BUILD_WRKSRC}/python/dist/ortools-${DISTVERSION}.9999-cp${PYTHON_SUFFIX}-cp${PYTHON_SUFFIX}m-freebsd_*.whl && \
+		unzip ${BUILD_WRKSRC}/python/dist/ortools-${DISTVERSION}*.whl && \
 		${RM} -rf ortools-*.dist-info
 	${FIND} ${STAGEDIR}${PYTHONPREFIX_SITELIBDIR} -name "*.so" -o -name "*.so.*" | ${XARGS} ${STRIP_CMD}
 
