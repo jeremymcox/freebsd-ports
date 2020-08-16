@@ -1,5 +1,5 @@
---- hostinfo_unix.cpp.orig	2018-01-14 04:07:52.000000000 -0600
-+++ hostinfo_unix.cpp	2020-08-15 20:45:01.891722000 -0500
+--- client/hostinfo_unix.cpp.orig	2018-01-14 04:07:52.000000000 -0600
++++ client/hostinfo_unix.cpp	2020-08-15 20:45:01.891722000 -0500
 @@ -164,7 +164,9 @@
  // The following is intended to be true both on Linux
  // and Debian GNU/kFreeBSD (see trac #521)
