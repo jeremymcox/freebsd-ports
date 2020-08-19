@@ -56,12 +56,16 @@ DYNAMIC_CONFIGURE_WITH=	system-libffi \
 DYNAMIC_LIB_DEPENDS=	libffi.so:devel/libffi
 DYNAMIC_SUB_LIST=	WITH_DYNAMIC="YES"
 DYNAMIC_SUB_LIST_OFF=	WITH_DYNAMIC="NO"
+DYNAMIC_PLIST_SUB=	NODYNAMIC="@comment "
+DYNAMIC_PLIST_SUB_OFF=	NODYNAMIC=""
 
 GMP_CONFIGURE_WITH=	gmp-includes=${LOCALBASE}/include \
 			gmp-libraries=${LOCALBASE}/lib
 GMP_LIB_DEPENDS=	libgmp.so:math/gmp
 GMP_SUB_LIST=		INTEGER_LIBRARY="integer-gmp"
 GMP_SUB_LIST_OFF=	INTEGER_LIBRARY="integer-simple"
+GMP_PLIST_SUB=		GMP="" SIMPLE="@comment "
+GMP_PLIST_SUB_OFF=	GMP="@comment " SIMPLE=""
 
 # Append substitutions for build.mk
 BOOT_SUB_LIST=		HSC2HS=${LOCALBASE}/bin/hsc2hs
@@ -69,8 +73,6 @@ BOOT_SUB_LIST_OFF=	HSC2HS=${BOOT_HSC2HS}
 
 PROFILE_SUB_LIST=	WITH_PROFILE="YES"
 PROFILE_SUB_LIST_OFF=	WITH_PROFILE="NO"
-
-PLIST_SUB=		GHC_VERSION=${GHC_VERSION} GHC_LIBDIR=${GHC_LIBDIR_REL}
 
 GHC_VERSION=		8.10.1
 HSCOLOUR_VERSION=	1.24.4
@@ -177,27 +179,6 @@ CONFIGURE_ARGS+=	GHC=${LOCALBASE}/bin/ghc
 SLAVES_PREFIX=		${WRKDIR}/slaves_prefix
 SLAVES_WRKDIRPREFIX=	${WRKDIR}/slaves_wrkdirprefix
 
-# %%PORTDOCS%%%%DOCSDIR%%/html/libraries/doc-index-V.html
-post-install-script:
-	${FIND} -ds ${GHC_LIBDIR} -type f -print | ${SED} -E \
-		-e 's,^${STAGEDIR}${PREFIX}/?,,' \
-		-e '/^${GHC_LIBDIR:C/\//\\\//g}\/package.conf.d\/package\.cache/s|^|@comment |g' \
-		>> ${TMPPLIST}
-.if ${PORT_OPTIONS:MDOCS}
-	${FIND} -ds ${STAGEDIR}${DOCSDIR} -type f -print | ${SED} -E \
-		-e 's,^${STAGEDIR}${PREFIX}/?,,' \
-		-e '/^${STAGEDIR:C/\//\\\//g}${DOCSDIR:C/\//\\\//g}\/html\/libraries\/doc-index-[^.]+\.html/s|^|@comment |g' \
-		-e '/^${STAGEDIR:C/\//\\\//g}${DOCSDIR:C/\//\\\//g}\/html\/libraries\/index[^\/.]*\.html/s|^|@comment|g' \
-		-e '/^${STAGEDIR:C/\//\\\//g}${DOCSDIR:C/\//\\\//g}\/html\/libraries\/[^\/]+\.png/s|^|@comment |g' \
-		>> ${TMPPLIST}
-
-	# Cleanup the indexen created by gen_contents_index
-	${ECHO} "@postunexec ${RM} %D/${DOCSDIR_REL}/html/libraries/doc-index-*.html" >> ${TMPPLIST}
-	${ECHO} "@postunexec ${RM} %D/${DOCSDIR_REL}/html/libraries/index*.html" >> ${TMPPLIST}
-	${ECHO} "@postunexec ${RM} %D/${DOCSDIR_REL}/html/libraries/*.png" >> ${TMPPLIST}
-.endif
-	${ECHO} '@postunexec ${RM} %D/${GHC_LIBDIR_REL}/package.conf.d/package.cache' >>${TMPPLIST}
-
 post-patch:
 	@${REINPLACE_CMD} -e 's|%%CC%%|${CC}|; \
 		s|%%AR%%|${AR}|; \
@@ -247,7 +228,12 @@ pre-configure: apply-slist
 post-install:
 	(for f in ${_EXECUTABLES} $$(${FIND} ${GHC_LIBDIR} -name '*.so*'); do \
 		${STRIP_CMD} $$f; done)
+	${RM} -r ${STAGEDIR}${DOCSDIR}/html/haddock/.build-html
 	${RM} ${STAGEDIR}${PREFIX}/bin/haddock
+
+.PHONY: fixup-plist
+fixup-plist:
+	${BOOT_DIR}/bin/runhaskell ${PATCHDIR}/fixup-plist.hs ${.CURDIR}/pkg-plist
 
 # Create a bootstrap compiler tar ball: run this in an interactive poudriere jail
 .PHONY: create-bootstrap
