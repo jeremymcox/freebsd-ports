@@ -687,7 +687,6 @@
     SUBDIR += monit
     SUBDIR += monitord
     SUBDIR += monitorix
-    SUBDIR += mono-kmod
     SUBDIR += moosefs2-cgi
     SUBDIR += moosefs2-cgiserv
     SUBDIR += moosefs2-chunkserver
@@ -1276,6 +1275,7 @@
     SUBDIR += syslog-ng326
     SUBDIR += syslog-ng327
     SUBDIR += syslog-ng328
+    SUBDIR += syslog-ng329
     SUBDIR += syslogger
     SUBDIR += sysrc
     SUBDIR += system-tools-backends
