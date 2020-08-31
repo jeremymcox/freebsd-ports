@@ -29,6 +29,7 @@
     SUBDIR += aqualung
     SUBDIR += ardour
     SUBDIR += ardour5
+    SUBDIR += ardour6
     SUBDIR += ario
     SUBDIR += arss
     SUBDIR += artyfx-lv2
@@ -803,7 +804,6 @@
     SUBDIR += timidity++-gtk
     SUBDIR += timidity++-motif
     SUBDIR += timidity++-slang
-    SUBDIR += timidity++-tcltk
     SUBDIR += timidity++-xaw
     SUBDIR += timidity++-xskin
     SUBDIR += tkeca
