@@ -713,6 +713,7 @@
     SUBDIR += gcc-arm-embedded
     SUBDIR += gcc-msp430-ti-toolchain
     SUBDIR += gccmakedep
+    SUBDIR += gcem
     SUBDIR += gconf2
     SUBDIR += gconf2-reference
     SUBDIR += gconfmm26
@@ -6802,8 +6803,6 @@
     SUBDIR += xtl
     SUBDIR += xtl-quant-stack
     SUBDIR += xtoolchain-llvm-devel
-    SUBDIR += xtoolchain-llvm60
-    SUBDIR += xtoolchain-llvm70
     SUBDIR += xtoolchain-llvm80
     SUBDIR += xtoolchain-llvm90
     SUBDIR += xwpe
