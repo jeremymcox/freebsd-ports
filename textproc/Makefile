@@ -18,6 +18,7 @@
     SUBDIR += R-cran-markdown
     SUBDIR += R-cran-openxlsx
     SUBDIR += R-cran-pystr
+    SUBDIR += R-cran-rbibutils
     SUBDIR += R-cran-readr
     SUBDIR += R-cran-readxl
     SUBDIR += R-cran-rematch
@@ -202,6 +203,7 @@
     SUBDIR += fldiff
     SUBDIR += flex
     SUBDIR += flip
+    SUBDIR += fmtlatex
     SUBDIR += fo-aspell
     SUBDIR += foiltex
     SUBDIR += fop
@@ -1217,6 +1219,7 @@
     SUBDIR += py-agate-dbf
     SUBDIR += py-agate-excel
     SUBDIR += py-alabaster
+    SUBDIR += py-arabic-reshaper
     SUBDIR += py-asciinema
     SUBDIR += py-asonic
     SUBDIR += py-autopep8
@@ -1248,6 +1251,7 @@
     SUBDIR += py-elasticsearch-dsl
     SUBDIR += py-elasticsearch5
     SUBDIR += py-elasticsearch6
+    SUBDIR += py-elementpath
     SUBDIR += py-empy
     SUBDIR += py-enchant
     SUBDIR += py-et_xmlfile
@@ -1310,6 +1314,7 @@
     SUBDIR += py-pandocfilters
     SUBDIR += py-paragrep
     SUBDIR += py-parse
+    SUBDIR += py-parse-type
     SUBDIR += py-parsel
     SUBDIR += py-parsimonious
     SUBDIR += py-parso
@@ -1410,6 +1415,7 @@
     SUBDIR += py-transifex-client
     SUBDIR += py-translationstring
     SUBDIR += py-transpopy
+    SUBDIR += py-ttp
     SUBDIR += py-ucl
     SUBDIR += py-ufal.udpipe
     SUBDIR += py-whoosh

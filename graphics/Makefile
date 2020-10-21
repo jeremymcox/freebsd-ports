@@ -106,6 +106,7 @@
     SUBDIR += cuttlefish
     SUBDIR += darktable
     SUBDIR += dataplot
+    SUBDIR += dbow2
     SUBDIR += dc20pack
     SUBDIR += dcmtk
     SUBDIR += dcp2icc
@@ -493,7 +494,6 @@
     SUBDIR += libwmf
     SUBDIR += libwmf-nox11
     SUBDIR += libwpg03
-    SUBDIR += libxatracker
     SUBDIR += libyuv
     SUBDIR += libzmf
     SUBDIR += lightzone
@@ -534,6 +534,9 @@
     SUBDIR += mesa-demos
     SUBDIR += mesa-devel
     SUBDIR += mesa-dri
+    SUBDIR += mesa-gallium-va
+    SUBDIR += mesa-gallium-vdpau
+    SUBDIR += mesa-gallium-xa
     SUBDIR += mesa-libs
     SUBDIR += metacam
     SUBDIR += metapixel
@@ -875,8 +878,10 @@
     SUBDIR += py-svg.path
     SUBDIR += py-svgwrite
     SUBDIR += py-termtosvg
+    SUBDIR += py-tifffile
     SUBDIR += py-toyplot
     SUBDIR += py-traitsui
+    SUBDIR += py-utm
     SUBDIR += py-vecrec
     SUBDIR += py-visvis
     SUBDIR += py-wand
