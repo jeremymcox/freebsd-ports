@@ -228,6 +228,7 @@
     SUBDIR += bingrep
     SUBDIR += binutils
     SUBDIR += bison
+    SUBDIR += bit
     SUBDIR += bitkeeper
     SUBDIR += blame
     SUBDIR += blitz
@@ -504,6 +505,7 @@
     SUBDIR += e00compr
     SUBDIR += e2fsprogs-libss
     SUBDIR += eastl
+    SUBDIR += easyexif
     SUBDIR += easygit
     SUBDIR += easyloggingpp
     SUBDIR += ebnf2yacc
@@ -4000,7 +4002,6 @@
     SUBDIR += py-Jinja2
     SUBDIR += py-Jinja2-doc
     SUBDIR += py-Js2Py
-    SUBDIR += py-PEAK-Rules
     SUBDIR += py-PeachPy
     SUBDIR += py-Products.ExternalEditor
     SUBDIR += py-Products.PloneLanguageTool
@@ -4316,7 +4317,6 @@
     SUBDIR += py-daemonize
     SUBDIR += py-daemons
     SUBDIR += py-dal
-    SUBDIR += py-darcsver
     SUBDIR += py-darts.util.lru
     SUBDIR += py-dask
     SUBDIR += py-dataclasses
@@ -4387,6 +4387,7 @@
     SUBDIR += py-fasteners
     SUBDIR += py-fastentrypoints
     SUBDIR += py-fastimport
+    SUBDIR += py-fastjsonschema
     SUBDIR += py-fastnumbers
     SUBDIR += py-fastprogress
     SUBDIR += py-fbprophet
@@ -4440,7 +4441,6 @@
     SUBDIR += py-game
     SUBDIR += py-game_sdl2
     SUBDIR += py-gast
-    SUBDIR += py-gdata
     SUBDIR += py-genson
     SUBDIR += py-genty
     SUBDIR += py-geojson
@@ -5004,7 +5004,6 @@
     SUBDIR += py-repoze.lru
     SUBDIR += py-repoze.sphinx.autointerface
     SUBDIR += py-repoze.tm2
-    SUBDIR += py-repoze.what
     SUBDIR += py-repoze.who
     SUBDIR += py-repoze.who-testutil
     SUBDIR += py-repoze.xmliter
@@ -5051,7 +5050,6 @@
     SUBDIR += py-setuptools
     SUBDIR += py-setuptools-git
     SUBDIR += py-setuptools-pkg
-    SUBDIR += py-setuptools_darcs
     SUBDIR += py-setuptools_hg
     SUBDIR += py-setuptools_scm
     SUBDIR += py-setuptools_scm_git_archive
@@ -6616,6 +6614,7 @@
     SUBDIR += scandoc
     SUBDIR += sccache
     SUBDIR += scons
+    SUBDIR += sd-mux
     SUBDIR += sdl12
     SUBDIR += sdl20
     SUBDIR += sdl2pp
@@ -6852,6 +6851,7 @@
     SUBDIR += yasm
     SUBDIR += yasm-devel
     SUBDIR += youcompleteme
+    SUBDIR += yuck
     SUBDIR += z80-asm
     SUBDIR += z80asm
     SUBDIR += z80ex
