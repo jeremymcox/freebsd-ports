@@ -26,7 +26,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}Jinja2>0:devel/py-Jinja2@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}yaml>0:devel/py-yaml@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pyinotify>0:devel/py-pyinotify@${PY_FLAVOR}
 
-USES=		cpe python:3.6-3.7
+USES=		cpe python:3.6-3.8
 
 CPE_VENDOR=	saltstack
 CPE_PRODUCT=	salt
@@ -59,6 +59,9 @@ USE_RC_SUBR=	salt_api \
 SUB_LIST+=	PYTHON_CMD=${PYTHON_CMD}
 
 SUB_FILES=	pkg-message
+
+# Upstream archive contains files with UTF-8 names
+EXTRACT_CMD=	${SETENV} LC_ALL=en_US.UTF-8 /usr/bin/bsdtar
 
 OPTIONS_DEFINE=	AWS TCP ZEROMQ
 OPTIONS_DEFAULT=ZEROMQ

@@ -21,6 +21,7 @@
     SUBDIR += bgpq4
     SUBDIR += bgpuma
     SUBDIR += blackbox_exporter
+    SUBDIR += bosun
     SUBDIR += bpft
     SUBDIR += braa
     SUBDIR += bsnmp-regex
@@ -279,6 +280,7 @@
     SUBDIR += php73-snmp
     SUBDIR += php74-snmp
     SUBDIR += php80-snmp
+    SUBDIR += phpfpm_exporter
     SUBDIR += phpipam
     SUBDIR += phpweathermap
     SUBDIR += ping_exporter
