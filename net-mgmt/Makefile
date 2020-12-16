@@ -50,7 +50,6 @@
     SUBDIR += ciscoconf
     SUBDIR += clog
     SUBDIR += cnagios
-    SUBDIR += cnagios4
     SUBDIR += collectd5
     SUBDIR += confregdecode
     SUBDIR += coovachilli
@@ -333,6 +332,7 @@
     SUBDIR += rrdbot
     SUBDIR += rtrlib
     SUBDIR += rubygem-blimpy
+    SUBDIR += rubygem-checkson
     SUBDIR += rubygem-oxidized
     SUBDIR += rubygem-oxidized-script
     SUBDIR += rubygem-oxidized-web
@@ -393,15 +393,15 @@
     SUBDIR += zabbix4-java
     SUBDIR += zabbix4-proxy
     SUBDIR += zabbix4-server
-    SUBDIR += zabbix44-agent
-    SUBDIR += zabbix44-frontend
-    SUBDIR += zabbix44-java
-    SUBDIR += zabbix44-proxy
-    SUBDIR += zabbix44-server
     SUBDIR += zabbix5-agent
     SUBDIR += zabbix5-frontend
     SUBDIR += zabbix5-java
     SUBDIR += zabbix5-proxy
     SUBDIR += zabbix5-server
+    SUBDIR += zabbix52-agent
+    SUBDIR += zabbix52-frontend
+    SUBDIR += zabbix52-java
+    SUBDIR += zabbix52-proxy
+    SUBDIR += zabbix52-server
 
 .include <bsd.port.subdir.mk>

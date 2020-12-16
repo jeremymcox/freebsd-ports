@@ -155,6 +155,7 @@
     SUBDIR += flower
     SUBDIR += foreman-proxy
     SUBDIR += fpc-ldap
+    SUBDIR += fpc-libenet
     SUBDIR += fpc-pcap
     SUBDIR += fping
     SUBDIR += freebsd-uucp
@@ -174,6 +175,7 @@
     SUBDIR += geoclue
     SUBDIR += geocode-glib
     SUBDIR += geoipupdate
+    SUBDIR += gerbera
     SUBDIR += gfbgraph
     SUBDIR += glflow
     SUBDIR += glib-networking
@@ -206,6 +208,7 @@
     SUBDIR += grsync
     SUBDIR += gscloud
     SUBDIR += gsk
+    SUBDIR += gsocket
     SUBDIR += gspoof
     SUBDIR += gssdp
     SUBDIR += gstreamer-plugins-libmms
@@ -229,6 +232,7 @@
     SUBDIR += haproxy19
     SUBDIR += haproxy20
     SUBDIR += haproxy21
+    SUBDIR += haproxy23
     SUBDIR += hblock
     SUBDIR += hexinject
     SUBDIR += hlmaster
@@ -1009,6 +1013,7 @@
     SUBDIR += py-errbot
     SUBDIR += py-eventlet
     SUBDIR += py-flask-xml-rpc
+    SUBDIR += py-gdown
     SUBDIR += py-gntp
     SUBDIR += py-gspread
     SUBDIR += py-h11
@@ -1035,7 +1040,7 @@
     SUBDIR += py-miniupnpc
     SUBDIR += py-mpi4py
     SUBDIR += py-msrplib
-    SUBDIR += py-ndg_httpsclient
+    SUBDIR += py-ndg-httpsclient
     SUBDIR += py-netaddr
     SUBDIR += py-netif
     SUBDIR += py-netifaces
@@ -1092,11 +1097,13 @@
     SUBDIR += py-ripe.atlas.tools
     SUBDIR += py-s3cmd
     SUBDIR += py-s3transfer
+    SUBDIR += py-saltyrtc.server
     SUBDIR += py-sbws
     SUBDIR += py-shodan
     SUBDIR += py-siosocks
     SUBDIR += py-smart-open
     SUBDIR += py-smbpasswd
+    SUBDIR += py-smbprotocol
     SUBDIR += py-soap2py
     SUBDIR += py-socketio-client
     SUBDIR += py-softlayer
@@ -1104,7 +1111,6 @@
     SUBDIR += py-sshtunnel
     SUBDIR += py-sshuttle
     SUBDIR += py-stomp.py
-    SUBDIR += py-suds
     SUBDIR += py-suds-jurko
     SUBDIR += py-tacacs_plus
     SUBDIR += py-terminado
@@ -1118,13 +1124,13 @@
     SUBDIR += py-uritools
     SUBDIR += py-urlextract
     SUBDIR += py-urllib3
+    SUBDIR += py-whois
     SUBDIR += py-wmi-query
     SUBDIR += py-wsdd
     SUBDIR += py-wsproto
     SUBDIR += py-zeep
     SUBDIR += py-zeroconf
     SUBDIR += py-zope.proxy
-    SUBDIR += pynids
     SUBDIR += pyrad
     SUBDIR += qadsl
     SUBDIR += qoauth-qt5
@@ -1158,16 +1164,6 @@
     SUBDIR += redir
     SUBDIR += relayd
     SUBDIR += remmina
-    SUBDIR += remmina-plugin-exec
-    SUBDIR += remmina-plugin-nx
-    SUBDIR += remmina-plugin-rdp
-    SUBDIR += remmina-plugin-secret
-    SUBDIR += remmina-plugin-spice
-    SUBDIR += remmina-plugin-st
-    SUBDIR += remmina-plugin-vnc
-    SUBDIR += remmina-plugin-www
-    SUBDIR += remmina-plugin-xdmcp
-    SUBDIR += remmina-plugins
     SUBDIR += remotebox
     SUBDIR += remotedesk
     SUBDIR += repeater
@@ -1275,6 +1271,7 @@
     SUBDIR += rubygem-macaddr
     SUBDIR += rubygem-maxmind-db
     SUBDIR += rubygem-mqtt
+    SUBDIR += rubygem-nats-pure
     SUBDIR += rubygem-net-ldap
     SUBDIR += rubygem-net-netrc
     SUBDIR += rubygem-net-ntp
@@ -1350,7 +1347,6 @@
     SUBDIR += rude
     SUBDIR += ryu
     SUBDIR += sacc
-    SUBDIR += samba410
     SUBDIR += samba411
     SUBDIR += samba412
     SUBDIR += samba413
@@ -1397,7 +1393,6 @@
     SUBDIR += socketpipe
     SUBDIR += socketw
     SUBDIR += sofia-sip
-    SUBDIR += spideroak
     SUBDIR += spoofer
     SUBDIR += spread
     SUBDIR += spread-j
@@ -1542,7 +1537,6 @@
     SUBDIR += xisp
     SUBDIR += xmlrpc-c
     SUBDIR += xmlrpc-epi
-    SUBDIR += xorp
     SUBDIR += xprobe
     SUBDIR += xrdesktop2
     SUBDIR += xrdp

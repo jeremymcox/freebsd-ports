@@ -100,8 +100,6 @@
     SUBDIR += openjdk7-jre
     SUBDIR += openjdk8
     SUBDIR += openjdk8-jre
-    SUBDIR += openjfx8-devel
-    SUBDIR += openjfx8-scenebuilder
     SUBDIR += openjfx14
     SUBDIR += phpeclipse
     SUBDIR += proguard

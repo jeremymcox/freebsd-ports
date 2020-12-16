@@ -46,7 +46,6 @@
     SUBDIR += gtkglextmm
     SUBDIR += gtkimageview
     SUBDIR += gtkmathview
-    SUBDIR += gtkmm20
     SUBDIR += gtkmm24
     SUBDIR += gtkmm30
     SUBDIR += gtksourceview2
@@ -162,7 +161,6 @@
     SUBDIR += plib
     SUBDIR += py-AnyQt
     SUBDIR += py-Pmw
-    SUBDIR += py-SquareMap
     SUBDIR += py-easygui
     SUBDIR += py-fltk
     SUBDIR += py-guietta

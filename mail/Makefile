@@ -490,7 +490,9 @@
     SUBDIR += py-afew
     SUBDIR += py-aiosmtpd
     SUBDIR += py-alot
+    SUBDIR += py-authheaders
     SUBDIR += py-authres
+    SUBDIR += py-django-mailman3
     SUBDIR += py-dkimpy
     SUBDIR += py-email-validator
     SUBDIR += py-email_reply_parser
@@ -498,6 +500,7 @@
     SUBDIR += py-flufl.bounce
     SUBDIR += py-fuglu
     SUBDIR += py-mail-parser
+    SUBDIR += py-mailmanclient
     SUBDIR += py-managesieve3
     SUBDIR += py-milter
     SUBDIR += py-notmuch
@@ -507,7 +510,6 @@
     SUBDIR += py-pymailq
     SUBDIR += py-pyspf
     SUBDIR += py-pyzmail
-    SUBDIR += py-spambayes
     SUBDIR += py-spf-engine
     SUBDIR += py-validate_email
     SUBDIR += pymsgauth

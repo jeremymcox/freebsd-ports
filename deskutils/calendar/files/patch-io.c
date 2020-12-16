@@ -1,112 +1,22 @@
---- io.c.orig	2020-10-28 20:58:10 UTC
+--- io.c.orig	2020-11-07 11:15:40 UTC
 +++ io.c
-@@ -134,18 +134,66 @@ cal_fopen(const char *file)
- }
+@@ -119,8 +119,6 @@ cal_fopen(const char *file)
+ 	FILE *fp;
+ 	char *home = getenv("HOME");
+ 	unsigned int i;
+-	struct stat sb;
+-	static bool warned = false;
  
- static int
--token(char *line, FILE *out, bool *skip)
-+token(char *line, FILE *out, int *skip)
- {
- 	char *walk, c, a;
- 
- 	if (strncmp(line, "endif", 5) == 0) {
--		*skip = false;
-+		if (*skip > 0)
-+			--*skip;
- 		return (T_OK);
+ 	if (home == NULL || *home == '\0') {
+ 		warnx("Cannot get home directory");
+@@ -145,10 +143,6 @@ cal_fopen(const char *file)
  	}
  
--	if (*skip)
-+	if (strncmp(line, "ifdef", 5) == 0) {
-+		walk = line + 5;
-+		trimlr(&walk);
-+
-+		if (*walk == '\0') {
-+			warnx("Expecting arguments after #ifdef");
-+			return (T_ERR);
-+		}
-+
-+		if (*skip != 0 || definitions == NULL || sl_find(definitions, walk) == NULL)
-+			++*skip;
-+
- 		return (T_OK);
-+	}
- 
-+	if (strncmp(line, "ifndef", 6) == 0) {
-+		walk = line + 6;
-+		trimlr(&walk);
-+
-+		if (*walk == '\0') {
-+			warnx("Expecting arguments after #ifndef");
-+			return (T_ERR);
-+		}
-+
-+		if (*skip != 0 || (definitions != NULL && sl_find(definitions, walk) != NULL))
-+			++*skip;
-+
-+		return (T_OK);
-+	}
-+
-+	if (strncmp(line, "else", 4) == 0) {
-+		walk = line + 4;
-+		trimlr(&walk);
-+
-+		if (*walk != '\0') {
-+			warnx("Expecting no arguments after #else");
-+			return (T_ERR);
-+		}
-+
-+		if (*skip == 0)
-+			*skip = 1;
-+		else if (*skip == 1)
-+			*skip = 0;
-+
-+		return (T_OK);
-+	}
-+
-+	if (*skip != 0)
-+		return (T_OK);
-+
- 	if (strncmp(line, "include", 7) == 0) {
- 		walk = line + 7;
- 
-@@ -206,21 +254,6 @@ token(char *line, FILE *out, bool *skip)
- 		return (T_OK);
- 	}
- 
--	if (strncmp(line, "ifndef", 6) == 0) {
--		walk = line + 6;
--		trimlr(&walk);
--
--		if (*walk == '\0') {
--			warnx("Expecting arguments after #ifndef");
--			return (T_ERR);
--		}
--
--		if (definitions != NULL && sl_find(definitions, walk) != NULL)
--			*skip = true;
--
--		return (T_OK);
+ 	warnx("can't open calendar file \"%s\"", file);
+-	if (!warned && stat(_PATH_INCLUDE_LOCAL, &sb) != 0) {
+-		warnx("calendar data files now provided by calendar-data pkg.");
+-		warned = true;
 -	}
--
- 	return (T_PROCESS);
  
+ 	return (NULL);
  }
-@@ -248,7 +281,7 @@ cal_parse(FILE *in, FILE *out)
- 	int month[MAXCOUNT];
- 	int day[MAXCOUNT];
- 	int year[MAXCOUNT];
--	bool skip = false;
-+	int skip = 0;
- 	char dbuf[80];
- 	char *pp, p;
- 	struct tm tm;
-@@ -278,7 +311,7 @@ cal_parse(FILE *in, FILE *out)
- 			}
- 		}
- 
--		if (skip)
-+		if (skip != 0)
- 			continue;
- 
- 		buf = line;
