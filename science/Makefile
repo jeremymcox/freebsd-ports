@@ -59,7 +59,6 @@
     SUBDIR += cp2k-data
     SUBDIR += crf++
     SUBDIR += dalton
-    SUBDIR += datawarrior
     SUBDIR += dcl
     SUBDIR += devisor
     SUBDIR += dftbplus
@@ -251,6 +250,7 @@
     SUBDIR += py-molmod
     SUBDIR += py-moltemplate
     SUBDIR += py-netCDF4
+    SUBDIR += py-netcdf-flattener
     SUBDIR += py-obspy
     SUBDIR += py-oddt
     SUBDIR += py-openpiv
@@ -284,6 +284,7 @@
     SUBDIR += py-scimath
     SUBDIR += py-scipy
     SUBDIR += py-scoria
+    SUBDIR += py-segyio
     SUBDIR += py-spglib
     SUBDIR += py-tensorflow
     SUBDIR += py-veusz
@@ -307,6 +308,7 @@
     SUBDIR += rubygem-ruby-dcl
     SUBDIR += rubygem-ruby-netcdf
     SUBDIR += scidavis
+    SUBDIR += segyio
     SUBDIR += siesta
     SUBDIR += sigrok-cli
     SUBDIR += sigrok-firmware
@@ -326,6 +328,7 @@
     SUBDIR += szip
     SUBDIR += teem
     SUBDIR += tfel
+    SUBDIR += tfel-edf
     SUBDIR += tinker
     SUBDIR += udunits
     SUBDIR += v_sim

@@ -82,6 +82,7 @@
     SUBDIR += c2html
     SUBDIR += c2man
     SUBDIR += ca-aspell
+    SUBDIR += cast2gif
     SUBDIR += castxml
     SUBDIR += catdoc
     SUBDIR += cdif
@@ -118,6 +119,7 @@
     SUBDIR += cy-aspell
     SUBDIR += da-aspell
     SUBDIR += dadadodo
+    SUBDIR += dasel
     SUBDIR += datamash
     SUBDIR += db2latex
     SUBDIR += dbacl
@@ -311,6 +313,7 @@
     SUBDIR += jing
     SUBDIR += jo
     SUBDIR += jq
+    SUBDIR += jql
     SUBDIR += jrefentry
     SUBDIR += jshon
     SUBDIR += json-yaml
@@ -403,6 +406,7 @@
     SUBDIR += linuxdoc
     SUBDIR += linuxdoc-tools
     SUBDIR += localize
+    SUBDIR += lookatme
     SUBDIR += loook
     SUBDIR += lowdown
     SUBDIR += lt-aspell
@@ -423,6 +427,7 @@
     SUBDIR += markdown
     SUBDIR += markdown-mode.el
     SUBDIR += markdownfmt
+    SUBDIR += markdownpart
     SUBDIR += mathml-xsd
     SUBDIR += mdbook
     SUBDIR += mdocml
@@ -1219,7 +1224,6 @@
     SUBDIR += pup
     SUBDIR += py-Chameleon
     SUBDIR += py-CommonMark
-    SUBDIR += py-MarkupSafe
     SUBDIR += py-QDarkStyle
     SUBDIR += py-Tempita
     SUBDIR += py-acora
@@ -1228,6 +1232,7 @@
     SUBDIR += py-agate-dbf
     SUBDIR += py-agate-excel
     SUBDIR += py-alabaster
+    SUBDIR += py-anyascii
     SUBDIR += py-arabic-reshaper
     SUBDIR += py-asciinema
     SUBDIR += py-asonic
@@ -1241,6 +1246,7 @@
     SUBDIR += py-cjkwrap
     SUBDIR += py-cloud_sptheme
     SUBDIR += py-cmarkgfm
+    SUBDIR += py-collective.checkdocs
     SUBDIR += py-colorclass
     SUBDIR += py-creole
     SUBDIR += py-cssselect2
@@ -1268,6 +1274,7 @@
     SUBDIR += py-feedparser
     SUBDIR += py-fingerprints
     SUBDIR += py-ftfy
+    SUBDIR += py-furo
     SUBDIR += py-gambit-elasticsearch
     SUBDIR += py-genshi
     SUBDIR += py-gensim
@@ -1294,6 +1301,7 @@
     SUBDIR += py-jtextfsm
     SUBDIR += py-junit-xml
     SUBDIR += py-langdetect
+    SUBDIR += py-langid
     SUBDIR += py-laserhammer
     SUBDIR += py-libxml2
     SUBDIR += py-license-expression
@@ -1305,6 +1313,7 @@
     SUBDIR += py-markdown2
     SUBDIR += py-markuppy
     SUBDIR += py-markups
+    SUBDIR += py-markupsafe
     SUBDIR += py-misaka
     SUBDIR += py-mistune
     SUBDIR += py-mkdocs
@@ -1332,6 +1341,7 @@
     SUBDIR += py-pdfminer3k
     SUBDIR += py-pdfrw
     SUBDIR += py-pdftotext
+    SUBDIR += py-petl
     SUBDIR += py-pikepdf
     SUBDIR += py-precis_i18n
     SUBDIR += py-pss
@@ -1368,6 +1378,7 @@
     SUBDIR += py-qt5-xml
     SUBDIR += py-qt5-xmlpatterns
     SUBDIR += py-rdflib
+    SUBDIR += py-readchar
     SUBDIR += py-recommonmark
     SUBDIR += py-regex
     SUBDIR += py-reno
@@ -1498,6 +1509,7 @@
     SUBDIR += rubygem-asciidoctor
     SUBDIR += rubygem-asciidoctor-diagram
     SUBDIR += rubygem-asciidoctor-include-ext
+    SUBDIR += rubygem-asciidoctor-pdf
     SUBDIR += rubygem-asciidoctor-plantuml
     SUBDIR += rubygem-asciidoctor-plantuml0010
     SUBDIR += rubygem-autoprefixer-rails
@@ -1523,6 +1535,7 @@
     SUBDIR += rubygem-css_parser
     SUBDIR += rubygem-cssmin
     SUBDIR += rubygem-cucumber-gherkin
+    SUBDIR += rubygem-cucumber-gherkin15
     SUBDIR += rubygem-cucumber-html-formatter
     SUBDIR += rubygem-diff-lcs
     SUBDIR += rubygem-diff_match_patch
@@ -1638,6 +1651,8 @@
     SUBDIR += rubygem-rouge318
     SUBDIR += rubygem-rouge319
     SUBDIR += rubygem-rouge321
+    SUBDIR += rubygem-rouge324
+    SUBDIR += rubygem-rouge325
     SUBDIR += rubygem-rttool
     SUBDIR += rubygem-ruby-augeas
     SUBDIR += rubygem-ruby-xslt
@@ -1677,6 +1692,7 @@
     SUBDIR += rubygem-tidy_ffi
     SUBDIR += rubygem-toml
     SUBDIR += rubygem-tomlrb
+    SUBDIR += rubygem-tomlrb1
     SUBDIR += rubygem-truncato
     SUBDIR += rubygem-twitter-text
     SUBDIR += rubygem-twitter-text1

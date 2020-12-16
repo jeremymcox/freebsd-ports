@@ -3,6 +3,7 @@
 
 PORTNAME=	grass
 PORTVERSION=	7.8.4
+PORTREVISION=	2
 CATEGORIES=	databases geography
 MASTER_SITES=	https://grass.osgeo.org/%SUBDIR%/ \
 		http://grass.cict.fr/%SUBDIR%/ \
@@ -64,6 +65,7 @@ CONFIGURE_ARGS=	--with-includes=${LOCALBASE}/include \
 		--with-readline \
 		--enable-largefile \
 		--with-wxwidgets=${WX_CONFIG} \
+		--with-proj=${LOCALBASE}/bin/proj \
 		--with-proj-share=${LOCALBASE}/share/proj \
 		--with-proj-includes=${LOCALBASE}/include \
 		--with-proj-libs=${LOCALBASE}/lib \

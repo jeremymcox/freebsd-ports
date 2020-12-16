@@ -2,7 +2,6 @@
 
 PORTNAME=	openjdk
 PORTVERSION=	${JDK_MAJOR_VERSION}.${JDK_UPDATE_VERSION}.${JDK_BUILD_NUMBER}.${BSD_JDK_VERSION}
-PORTREVISION=	1
 CATEGORIES=	java devel
 MASTER_SITES=	LOCAL/jkim:jtreg
 PKGNAMESUFFIX?=	${JDK_MAJOR_VERSION}
@@ -12,7 +11,7 @@ COMMENT?=	Java Development Kit ${JDK_MAJOR_VERSION}
 
 LICENSE=	GPLv2
 
-ONLY_FOR_ARCHS=	aarch64 amd64 armv6 armv7 i386 powerpc powerpc64
+ONLY_FOR_ARCHS=	aarch64 amd64 armv6 armv7 i386 powerpc powerpc64 powerpc64le
 
 BUILD_DEPENDS=	zip:archivers/zip \
 		autoconf>0:devel/autoconf \
@@ -52,8 +51,8 @@ INSTALLDIR=	${PREFIX}/${PKGBASE}
 NOPRECIOUSMAKEVARS=	yes
 
 JDK_MAJOR_VERSION=	8
-JDK_UPDATE_VERSION=	272
-JDK_BUILD_NUMBER=	10
+JDK_UPDATE_VERSION=	275
+JDK_BUILD_NUMBER=	01
 BSD_JDK_VERSION=	1
 JTREG_VERSION=		4.1
 JTREG_BUILD_NUMBER=	b08
@@ -194,7 +193,7 @@ CONFIGURE_ARGS+=	--disable-jfr
 MAKE_ENV+=	LFLAGS="-Wl,-z,notext"
 .endif
 
-.if ${ARCH} == amd64 || ${ARCH} == i386 || ${ARCH} == powerpc64
+.if ${ARCH} == amd64 || ${ARCH} == i386 || ${ARCH:Mpowerpc64*}
 JDK_BUILD_JVM=	server
 .else
 JDK_BUILD_JVM=	zero
@@ -218,6 +217,15 @@ MAKE_ARGS+=	USE_PRECOMPILED_HEADER=0
 
 .if defined(PPC_ABI) && ${PPC_ABI} == ELFv2
 EXTRA_PATCHES+= ${FILESDIR}/extra-patch-ppc64-elfv2
+MAKE_ARGS+=	USE_PRECOMPILED_HEADER=0
+.endif
+
+.if ${ARCH} == powerpc64
+CONFIGURE_ARGS+=	--disable-jfr
+.endif
+
+.if ${ARCH} == powerpc64le
+CONFIGURE_ARGS+=	--disable-jfr
 MAKE_ARGS+=	USE_PRECOMPILED_HEADER=0
 .endif
 

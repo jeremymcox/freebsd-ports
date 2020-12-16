@@ -157,6 +157,7 @@
     SUBDIR += fizz
     SUBDIR += fl0p
     SUBDIR += flawfinder
+    SUBDIR += fpc-gnutls
     SUBDIR += fpc-openssl
     SUBDIR += fprint_demo
     SUBDIR += fprintd
@@ -915,7 +916,6 @@
     SUBDIR += py-libnacl
     SUBDIR += py-m2crypto
     SUBDIR += py-maec
-    SUBDIR += py-mcrypt
     SUBDIR += py-merkletools
     SUBDIR += py-mixbox
     SUBDIR += py-mnemonic
@@ -925,7 +925,7 @@
     SUBDIR += py-ntlm-auth
     SUBDIR += py-oauth2client
     SUBDIR += py-oauthlib
-    SUBDIR += py-obfsproxy-tor
+    SUBDIR += py-onlykey
     SUBDIR += py-openssl
     SUBDIR += py-ospd
     SUBDIR += py-paramiko
@@ -957,6 +957,7 @@
     SUBDIR += py-pyscard
     SUBDIR += py-pysha3
     SUBDIR += py-pysodium
+    SUBDIR += py-pyspnego
     SUBDIR += py-python-axolotl
     SUBDIR += py-python-axolotl-curve25519
     SUBDIR += py-python-gnupg
@@ -964,6 +965,7 @@
     SUBDIR += py-python-nss
     SUBDIR += py-python-openid
     SUBDIR += py-python-pam
+    SUBDIR += py-python-pkcs11
     SUBDIR += py-python-registry
     SUBDIR += py-python3-openid
     SUBDIR += py-python3-saml
@@ -988,6 +990,7 @@
     SUBDIR += py-spake2
     SUBDIR += py-ssh
     SUBDIR += py-ssh-audit
+    SUBDIR += py-sshpubkeys
     SUBDIR += py-stem
     SUBDIR += py-stix
     SUBDIR += py-stix2
@@ -1003,6 +1006,7 @@
     SUBDIR += py-virustotal-api
     SUBDIR += py-volatility3
     SUBDIR += py-vulndb
+    SUBDIR += py-webauthn
     SUBDIR += py-xkcdpass
     SUBDIR += py-xmlsec
     SUBDIR += py-yara
@@ -1204,6 +1208,7 @@
     SUBDIR += sops
     SUBDIR += spass
     SUBDIR += spass-qt5
+    SUBDIR += spectre-meltdown-checker
     SUBDIR += spm
     SUBDIR += spybye
     SUBDIR += sqlmap
@@ -1289,6 +1294,7 @@
     SUBDIR += webscarab
     SUBDIR += whatweb
     SUBDIR += wipe
+    SUBDIR += wolfssh
     SUBDIR += wolfssl
     SUBDIR += wpa_supplicant
     SUBDIR += xca

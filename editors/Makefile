@@ -64,6 +64,7 @@
     SUBDIR += hexpert
     SUBDIR += hnb
     SUBDIR += hte
+    SUBDIR += imhex
     SUBDIR += impress
     SUBDIR += jed
     SUBDIR += jedit
@@ -192,6 +193,7 @@
     SUBDIR += linux-sublime3
     SUBDIR += madedit
     SUBDIR += mg
+    SUBDIR += mg-static
     SUBDIR += micro
     SUBDIR += mined
     SUBDIR += mle

@@ -1,12 +1,12 @@
 # $FreeBSD$
 
 PORTNAME=	xpra
-PORTVERSION=	4.0.4
+PORTVERSION=	4.0.5
 CATEGORIES=	x11
 MASTER_SITES=	http://xpra.org/src/
 
 MAINTAINER=	arrowd@FreeBSD.org
-COMMENT=	Xpra gives you persistent remote applications for X
+COMMENT=	Persistent remote applications for X
 
 LICENSE=	GPLv2
 
@@ -129,6 +129,5 @@ post-install:
 	    ${STAGEDIR}${ETCDIR}/xpra.conf.sample
 	@${FIND} ${STAGEDIR}${PYTHON_SITELIBDIR}/${PORTNAME} -name '*.so' \
 	    -exec ${STRIP_CMD} {} +
-	@${MKDIR} ${STAGEDIR}/var/run/xpra
 
 .include <bsd.port.post.mk>

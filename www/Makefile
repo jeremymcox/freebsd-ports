@@ -47,6 +47,7 @@
     SUBDIR += beehive
     SUBDIR += bkmrkconv
     SUBDIR += blastbeat
+    SUBDIR += bluefish
     SUBDIR += bolt
     SUBDIR += bozohttpd
     SUBDIR += browsh
@@ -70,6 +71,7 @@
     SUBDIR += cgiwrap
     SUBDIR += checkbot
     SUBDIR += chems
+    SUBDIR += chisel
     SUBDIR += choqok
     SUBDIR += chpasswd
     SUBDIR += chrome-gnome-shell
@@ -137,6 +139,7 @@
     SUBDIR += emacs-w3m
     SUBDIR += encode-explorer
     SUBDIR += envoy
+    SUBDIR += eolie
     SUBDIR += ephemera
     SUBDIR += epiphany
     SUBDIR += erlang-cowboy
@@ -169,6 +172,7 @@
     SUBDIR += fpc-httpd22
     SUBDIR += fpc-httpd24
     SUBDIR += fpc-libmicrohttpd
+    SUBDIR += fpc-webidl
     SUBDIR += free-sa-devel
     SUBDIR += fswiki
     SUBDIR += fusionpbx
@@ -313,15 +317,18 @@
     SUBDIR += ljdeps
     SUBDIR += logswan
     SUBDIR += logtools
+    SUBDIR += ls-qpack
     SUBDIR += lua-resty-core
     SUBDIR += lua-resty-lrucache
     SUBDIR += luakit
     SUBDIR += luakit-devel
+    SUBDIR += lychee
     SUBDIR += lynx
     SUBDIR += lynx-current
     SUBDIR += madsonic
     SUBDIR += man2web
     SUBDIR += mathjax
+    SUBDIR += mathjax3
     SUBDIR += mathopd
     SUBDIR += matomo
     SUBDIR += mattermost-server
@@ -411,8 +418,8 @@
     SUBDIR += mongoose
     SUBDIR += mongrel2
     SUBDIR += monolith
+    SUBDIR += moodle310
     SUBDIR += moodle35
-    SUBDIR += moodle37
     SUBDIR += moodle38
     SUBDIR += moodle39
     SUBDIR += morty
@@ -454,6 +461,7 @@
     SUBDIR += node
     SUBDIR += node10
     SUBDIR += node12
+    SUBDIR += node14
     SUBDIR += nostromo
     SUBDIR += novnc
     SUBDIR += novnc-websockify
@@ -462,6 +470,7 @@
     SUBDIR += npm
     SUBDIR += npm-node10
     SUBDIR += npm-node12
+    SUBDIR += npm-node14
     SUBDIR += nspluginwrapper
     SUBDIR += obhttpd
     SUBDIR += oneshot
@@ -1409,6 +1418,7 @@
     SUBDIR += py-aiohttp-wsgi
     SUBDIR += py-aiohttp2
     SUBDIR += py-aiohttp_cors
+    SUBDIR += py-aioquic
     SUBDIR += py-arxiv
     SUBDIR += py-asgiref
     SUBDIR += py-autobahn
@@ -1416,7 +1426,6 @@
     SUBDIR += py-azure-storage
     SUBDIR += py-beaker
     SUBDIR += py-beautifulsoup
-    SUBDIR += py-beautifulsoup32
     SUBDIR += py-beautifulsoup448
     SUBDIR += py-betamax
     SUBDIR += py-biscuits
@@ -1439,6 +1448,20 @@
     SUBDIR += py-cssmin
     SUBDIR += py-cssselect
     SUBDIR += py-cssutils
+    SUBDIR += py-dj31-django-auth-ldap
+    SUBDIR += py-dj31-django-cacheops
+    SUBDIR += py-dj31-django-cors-headers
+    SUBDIR += py-dj31-django-debug-toolbar
+    SUBDIR += py-dj31-django-filter
+    SUBDIR += py-dj31-django-js-asset
+    SUBDIR += py-dj31-django-mptt
+    SUBDIR += py-dj31-django-prometheus
+    SUBDIR += py-dj31-django-redis
+    SUBDIR += py-dj31-django-tables2
+    SUBDIR += py-dj31-django-taggit
+    SUBDIR += py-dj31-django-timezone-field
+    SUBDIR += py-dj31-djangorestframework
+    SUBDIR += py-dj31-drf-yasg
     SUBDIR += py-django
     SUBDIR += py-django-allauth
     SUBDIR += py-django-annoying
@@ -1477,6 +1500,7 @@
     SUBDIR += py-django-filter
     SUBDIR += py-django-formset-js-improved
     SUBDIR += py-django-formtools
+    SUBDIR += py-django-gravatar2
     SUBDIR += py-django-guardian
     SUBDIR += py-django-happenings-update
     SUBDIR += py-django-haystack
@@ -1551,10 +1575,10 @@
     SUBDIR += py-djangorestframework-filters
     SUBDIR += py-djangorestframework-xml
     SUBDIR += py-djangorestframework311
-    SUBDIR += py-draftjs_exporter
+    SUBDIR += py-draftjs-exporter
     SUBDIR += py-drf-yasg
     SUBDIR += py-dtflickr
-    SUBDIR += py-evernote
+    SUBDIR += py-enmerkar
     SUBDIR += py-fake-useragent
     SUBDIR += py-falcon
     SUBDIR += py-feedgenerator
@@ -1628,10 +1652,12 @@
     SUBDIR += py-httpcore
     SUBDIR += py-httpie
     SUBDIR += py-httplib2
+    SUBDIR += py-httpretty
     SUBDIR += py-httptools
     SUBDIR += py-httpx
     SUBDIR += py-httpx013
     SUBDIR += py-hyper
+    SUBDIR += py-hypercorn
     SUBDIR += py-hyperframe
     SUBDIR += py-hyperlink
     SUBDIR += py-imdbpy
@@ -1647,7 +1673,6 @@
     SUBDIR += py-livereload
     SUBDIR += py-mechanicalsoup
     SUBDIR += py-mechanize
-    SUBDIR += py-meld3
     SUBDIR += py-multidict
     SUBDIR += py-mwoauth
     SUBDIR += py-nevow
@@ -1661,15 +1686,17 @@
     SUBDIR += py-pecan
     SUBDIR += py-pelican
     SUBDIR += py-planet
+    SUBDIR += py-postorius
     SUBDIR += py-praw
     SUBDIR += py-prawcore
     SUBDIR += py-priority
     SUBDIR += py-puppetboard
     SUBDIR += py-py-restclient
     SUBDIR += py-pyjwt
-    SUBDIR += py-pylons
+    SUBDIR += py-pylsqpack
     SUBDIR += py-pyocclient
     SUBDIR += py-pyramid
+    SUBDIR += py-pyramid-mako
     SUBDIR += py-pyramid_rpc
     SUBDIR += py-pysmartdl
     SUBDIR += py-python-digitalocean
@@ -1677,7 +1704,6 @@
     SUBDIR += py-python-multipart
     SUBDIR += py-pyweblib
     SUBDIR += py-pywikibot
-    SUBDIR += py-qpy
     SUBDIR += py-qt5-webchannel
     SUBDIR += py-qt5-webengine
     SUBDIR += py-qt5-webkit
@@ -1685,7 +1711,6 @@
     SUBDIR += py-qt5-websockets
     SUBDIR += py-rackspace-monitoring
     SUBDIR += py-recaptcha
-    SUBDIR += py-requestbuilder
     SUBDIR += py-requests
     SUBDIR += py-requests-aws4auth
     SUBDIR += py-requests-cache
@@ -1694,6 +1719,7 @@
     SUBDIR += py-requests-mock
     SUBDIR += py-requests-oauthlib
     SUBDIR += py-requests-toolbelt
+    SUBDIR += py-requests-unixsocket
     SUBDIR += py-requests_ntlm
     SUBDIR += py-restclient
     SUBDIR += py-rfc3986
@@ -1708,6 +1734,7 @@
     SUBDIR += py-secure-cookie
     SUBDIR += py-selector
     SUBDIR += py-selenium
+    SUBDIR += py-sentinelhub
     SUBDIR += py-slimit
     SUBDIR += py-slumber
     SUBDIR += py-sockjs-tornado
@@ -1764,7 +1791,6 @@
     SUBDIR += quark
     SUBDIR += qutebrowser
     SUBDIR += radicale
-    SUBDIR += radicale2
     SUBDIR += redmine4
     SUBDIR += rejik
     SUBDIR += reportmagic
@@ -1829,7 +1855,6 @@
     SUBDIR += rubygem-cuba
     SUBDIR += rubygem-d3_rails
     SUBDIR += rubygem-d3_rails-rails4
-    SUBDIR += rubygem-dashing
     SUBDIR += rubygem-davclient
     SUBDIR += rubygem-deckar01-task_list
     SUBDIR += rubygem-domainatrix
@@ -1840,6 +1865,7 @@
     SUBDIR += rubygem-em-websocket
     SUBDIR += rubygem-emk-sinatra-url-for
     SUBDIR += rubygem-erubi
+    SUBDIR += rubygem-erubi19
     SUBDIR += rubygem-erubis
     SUBDIR += rubygem-ethon
     SUBDIR += rubygem-eventmachine_httpserver
@@ -1858,7 +1884,6 @@
     SUBDIR += rubygem-gitlab-flowdock-git-hook
     SUBDIR += rubygem-gitlab-gollum-lib
     SUBDIR += rubygem-gitlab-gollum-rugged_adapter
-    SUBDIR += rubygem-gitlab-grack
     SUBDIR += rubygem-gitlab-puma
     SUBDIR += rubygem-gitlab-puma_worker_killer
     SUBDIR += rubygem-gitlab-turbolinks-classic
@@ -2025,7 +2050,6 @@
     SUBDIR += rubygem-redis-rails-rails50
     SUBDIR += rubygem-redis-rails-rails52
     SUBDIR += rubygem-redis-rails-rails60
-    SUBDIR += rubygem-redmine_acts_as_taggable_on
     SUBDIR += rubygem-responders
     SUBDIR += rubygem-responders-rails5
     SUBDIR += rubygem-responders-rails52
@@ -2094,6 +2118,7 @@
     SUBDIR += samdruckerserver
     SUBDIR += sarg
     SUBDIR += scloader
+    SUBDIR += screego
     SUBDIR += script4rss
     SUBDIR += seahub
     SUBDIR += searx
@@ -2101,6 +2126,7 @@
     SUBDIR += serendipity
     SUBDIR += serf
     SUBDIR += servlet-api
+    SUBDIR += sfeed
     SUBDIR += sfnt2woff
     SUBDIR += shellinabox
     SUBDIR += shttpd
@@ -2144,6 +2170,7 @@
     SUBDIR += templatelite
     SUBDIR += thirtybees
     SUBDIR += threejs
+    SUBDIR += threema-web
     SUBDIR += thttpd
     SUBDIR += thumbnail_index
     SUBDIR += thundercache
@@ -2271,6 +2298,7 @@
     SUBDIR += varnish-libvmod-digest
     SUBDIR += varnish-libvmod-dynamic
     SUBDIR += varnish-libvmod-maxminddb
+    SUBDIR += varnish-libvmod-querystring
     SUBDIR += varnish-modules
     SUBDIR += varnish-nagios
     SUBDIR += varnish4

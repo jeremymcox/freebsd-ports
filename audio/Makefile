@@ -11,6 +11,7 @@
     SUBDIR += abcde
     SUBDIR += abcselect
     SUBDIR += abgate-lv2
+    SUBDIR += abx
     SUBDIR += adplay
     SUBDIR += afsp
     SUBDIR += aften
@@ -97,6 +98,7 @@
     SUBDIR += cue2toc
     SUBDIR += cuetools
     SUBDIR += cutmp3
+    SUBDIR += cyanrip
     SUBDIR += dagrab
     SUBDIR += darkice
     SUBDIR += dcd
@@ -326,6 +328,7 @@
     SUBDIR += headsetcontrol
     SUBDIR += herrie
     SUBDIR += hexter
+    SUBDIR += hpsjam
     SUBDIR += hts_engine-API
     SUBDIR += hvl2wav
     SUBDIR += hydrogen
@@ -844,6 +847,7 @@
     SUBDIR += wavpack
     SUBDIR += wavplay
     SUBDIR += webrtc-audio-processing
+    SUBDIR += webrtc-audio-processing0
     SUBDIR += welle.io
     SUBDIR += whysynth
     SUBDIR += wildmidi
@@ -856,7 +860,6 @@
     SUBDIR += xanalyser
     SUBDIR += xcd
     SUBDIR += xcdplayer
-    SUBDIR += xfce4-mixer
     SUBDIR += xfce4-mpc-plugin
     SUBDIR += xfce4-pulseaudio-plugin
     SUBDIR += xfmpc
