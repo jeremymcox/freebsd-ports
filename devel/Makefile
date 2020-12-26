@@ -214,6 +214,7 @@
     SUBDIR += babeltrace
     SUBDIR += bam
     SUBDIR += bashdb
+    SUBDIR += basu
     SUBDIR += bats-core
     SUBDIR += bazel
     SUBDIR += bazel-buildtools
@@ -819,7 +820,6 @@
     SUBDIR += global
     SUBDIR += glog
     SUBDIR += glrparser
-    SUBDIR += glslang
     SUBDIR += glui
     SUBDIR += gmake
     SUBDIR += gn
@@ -3891,6 +3891,7 @@
     SUBDIR += phabricator
     SUBDIR += php-Psr_Log
     SUBDIR += php-composer
+    SUBDIR += php-composer2
     SUBDIR += php-geshi
     SUBDIR += php-ice37
     SUBDIR += php-libawl
@@ -4425,6 +4426,7 @@
     SUBDIR += py-genson
     SUBDIR += py-genty
     SUBDIR += py-geojson
+    SUBDIR += py-get-reader
     SUBDIR += py-gevent
     SUBDIR += py-git-semver
     SUBDIR += py-git-up
@@ -5067,6 +5069,7 @@
     SUBDIR += py-speaklater
     SUBDIR += py-speg
     SUBDIR += py-spyder
+    SUBDIR += py-squint
     SUBDIR += py-srsly
     SUBDIR += py-stackexchange
     SUBDIR += py-statgrab
@@ -5625,6 +5628,7 @@
     SUBDIR += rubygem-aws-sdk-lexmodelbuildingservice
     SUBDIR += rubygem-aws-sdk-licensemanager
     SUBDIR += rubygem-aws-sdk-lightsail
+    SUBDIR += rubygem-aws-sdk-locationservice
     SUBDIR += rubygem-aws-sdk-lookoutforvision
     SUBDIR += rubygem-aws-sdk-machinelearning
     SUBDIR += rubygem-aws-sdk-macie
@@ -5726,6 +5730,7 @@
     SUBDIR += rubygem-aws-sdk-waf
     SUBDIR += rubygem-aws-sdk-wafregional
     SUBDIR += rubygem-aws-sdk-wafv2
+    SUBDIR += rubygem-aws-sdk-wellarchitected
     SUBDIR += rubygem-aws-sdk-workdocs
     SUBDIR += rubygem-aws-sdk-worklink
     SUBDIR += rubygem-aws-sdk-workmail
@@ -6114,6 +6119,7 @@
     SUBDIR += rubygem-git-version-bump
     SUBDIR += rubygem-github_api
     SUBDIR += rubygem-gitlab-chronic
+    SUBDIR += rubygem-gitlab-experiment
     SUBDIR += rubygem-gitlab-labkit
     SUBDIR += rubygem-gitlab-license
     SUBDIR += rubygem-gitlab-pygments.rb
@@ -6175,6 +6181,7 @@
     SUBDIR += rubygem-inflecto
     SUBDIR += rubygem-iniparse
     SUBDIR += rubygem-insist
+    SUBDIR += rubygem-inspec-core
     SUBDIR += rubygem-instance_storage
     SUBDIR += rubygem-interact
     SUBDIR += rubygem-io-console
@@ -6465,6 +6472,7 @@
     SUBDIR += rubygem-safe_yaml
     SUBDIR += rubygem-scanf
     SUBDIR += rubygem-schash
+    SUBDIR += rubygem-scientist
     SUBDIR += rubygem-sdoc
     SUBDIR += rubygem-semantic_puppet
     SUBDIR += rubygem-semantic_range
@@ -6709,6 +6717,7 @@
     SUBDIR += sonar-scanner-cli
     SUBDIR += sonarqube-ant-task
     SUBDIR += sonarqube-community
+    SUBDIR += sope
     SUBDIR += sope2
     SUBDIR += sope4
     SUBDIR += sord
@@ -6722,7 +6731,6 @@
     SUBDIR += spice-protocol
     SUBDIR += spin
     SUBDIR += spirv-llvm-translator
-    SUBDIR += spirv-tools
     SUBDIR += splint
     SUBDIR += spread-sheet-widget
     SUBDIR += srecord
@@ -6855,9 +6863,6 @@
     SUBDIR += vitables
     SUBDIR += volk
     SUBDIR += vstr
-    SUBDIR += vulkan-headers
-    SUBDIR += vulkan-tools
-    SUBDIR += vulkan-validation-layers
     SUBDIR += vxlog
     SUBDIR += wand-libconfig
     SUBDIR += wandio

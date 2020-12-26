@@ -85,7 +85,8 @@ HEADER_FILES=	alg/gdalwarpkernel_opencl.h \
 		port/cpl_vsil_curl_priv.h \
 		port/cpl_worker_thread_pool.h
 
-ARMADILLO_CONFIGURE_WITH=	armadillo
+ARMADILLO_CONFIGURE_OFF=--with-armadillo=no
+ARMADILLO_CONFIGURE_ON=	--with-armadillo=${LOCALBASE}
 ARMADILLO_LIB_DEPENDS=	libarmadillo.so:math/armadillo
 CFITSIO_CONFIGURE_WITH=	cfitsio
 CFITSIO_LIB_DEPENDS=	libcfitsio.so:astro/cfitsio
@@ -129,6 +130,7 @@ NETCDF_CONFIGURE_WITH=	netcdf
 NETCDF_LIB_DEPENDS=	libnetcdf.so:science/netcdf
 ODBC_CONFIGURE_WITH=	odbc
 ODBC_LIB_DEPENDS=	libodbc.so:databases/unixODBC
+OPENJPEG_BUILD_DEPENDS=	openjpeg>=2.1.0:graphics/openjpeg
 OPENJPEG_CONFIGURE_WITH=openjpeg
 OPENJPEG_LIB_DEPENDS=	libopenjp2.so:graphics/openjpeg
 PCRE_CONFIGURE_WITH=	pcre
