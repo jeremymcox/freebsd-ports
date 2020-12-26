@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	psutil
-PORTVERSION=	5.7.3
+PORTVERSION=	5.8.0
 CATEGORIES=	sysutils python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
@@ -29,6 +29,6 @@ TEST_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}mock>=0:devel/py-mock@${PY_FLAVOR} \
 .endif
 
 post-install:
-	${STRIP_CMD} ${STAGEDIR}${PYTHONPREFIX_SITELIBDIR}/psutil/_psutil_bsd.so ${STAGEDIR}${PYTHONPREFIX_SITELIBDIR}/psutil/_psutil_posix.so
+	${STRIP_CMD} ${STAGEDIR}${PYTHONPREFIX_SITELIBDIR}/psutil/_psutil_bsd*.so ${STAGEDIR}${PYTHONPREFIX_SITELIBDIR}/psutil/_psutil_posix*.so
 
 .include <bsd.port.post.mk>

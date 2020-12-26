@@ -1514,6 +1514,7 @@
     SUBDIR += rubygem-asciidoctor
     SUBDIR += rubygem-asciidoctor-diagram
     SUBDIR += rubygem-asciidoctor-include-ext
+    SUBDIR += rubygem-asciidoctor-kroki
     SUBDIR += rubygem-asciidoctor-pdf
     SUBDIR += rubygem-asciidoctor-plantuml
     SUBDIR += rubygem-asciidoctor-plantuml0010
@@ -1610,6 +1611,7 @@
     SUBDIR += rubygem-loofah
     SUBDIR += rubygem-ltsv
     SUBDIR += rubygem-markaby
+    SUBDIR += rubygem-mdl
     SUBDIR += rubygem-minima
     SUBDIR += rubygem-multi_xml
     SUBDIR += rubygem-nokogiri
