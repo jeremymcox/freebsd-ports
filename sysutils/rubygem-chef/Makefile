@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	chef
-PORTVERSION=	15.14.0
+PORTVERSION=	15.15.0
 CATEGORIES=	sysutils
 MASTER_SITES=	RG
 
@@ -16,7 +16,7 @@ RUN_DEPENDS=	rubygem-addressable>=0:www/rubygem-addressable \
 		rubygem-bcrypt_pbkdf>=1.0.1<2:security/rubygem-bcrypt_pbkdf \
 		rubygem-bundler>=1.10:sysutils/rubygem-bundler \
 		rubygem-chef-config>=${PORTVERSION}<${PORTVERSION}_99:sysutils/rubygem-chef-config \
-		rubygem-chef-utils>=${PORTVERSION}<${PORTVERSION}_99:sysutils/rubygem-chef-utils \
+		rubygem-chef-utils15>=${PORTVERSION}<${PORTVERSION}_99:sysutils/rubygem-chef-utils15 \
 		rubygem-chef-zero>=14.0.11:sysutils/rubygem-chef-zero \
 		rubygem-diff-lcs>=1.2.4<2:textproc/rubygem-diff-lcs \
 		rubygem-ed25519>=1.2<2:security/rubygem-ed25519 \

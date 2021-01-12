@@ -2,7 +2,7 @@
 
 PORTNAME=	libplacebo
 DISTVERSIONPREFIX=	v
-DISTVERSION=	2.72.2
+DISTVERSION=	3.104.0
 CATEGORIES=	graphics
 
 MAINTAINER=	jbeich@FreeBSD.org
@@ -25,7 +25,6 @@ OPTIONS_SUB=	yes
 GLSLANG_DESC=		glslang SPIR-V compiler
 GLSLANG_BUILD_DEPENDS=	glslang>0:graphics/glslang
 GLSLANG_MESON_ENABLED=	glslang
-GLSLANG_VARS=		LLD_UNSAFE=yes
 GLSLANG_IMPLIES=	VULKAN
 
 LCMS2_LIB_DEPENDS=	liblcms2.so:graphics/lcms2
