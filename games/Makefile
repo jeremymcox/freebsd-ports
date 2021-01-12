@@ -67,6 +67,7 @@
     SUBDIR += atris
     SUBDIR += atris-sounds
     SUBDIR += auralquiz
+    SUBDIR += automuteus
     SUBDIR += avanor
     SUBDIR += avoision
     SUBDIR += avp
@@ -183,8 +184,6 @@
     SUBDIR += d2x
     SUBDIR += dMagnetic
     SUBDIR += dangen
-    SUBDIR += dangerdeep
-    SUBDIR += dangerdeep-data
     SUBDIR += darkplaces
     SUBDIR += defendguin
     SUBDIR += devilutionX
@@ -228,6 +227,7 @@
     SUBDIR += el
     SUBDIR += el-data
     SUBDIR += emptyepsilon
+    SUBDIR += endgame-singularity
     SUBDIR += endgame-singularity-music
     SUBDIR += endless-sky
     SUBDIR += endless-sky-high-dpi
@@ -289,7 +289,6 @@
     SUBDIR += freeminer
     SUBDIR += freeminer-default
     SUBDIR += freeorion
-    SUBDIR += freera
     SUBDIR += freesweep
     SUBDIR += freesynd
     SUBDIR += freetennis
@@ -317,7 +316,6 @@
     SUBDIR += glest-data
     SUBDIR += glightoff
     SUBDIR += glmaze
-    SUBDIR += glob2
     SUBDIR += glsfcave
     SUBDIR += gltron
     SUBDIR += gmastermind
@@ -591,7 +589,6 @@
     SUBDIR += mancala
     SUBDIR += mangband
     SUBDIR += mari0
-    SUBDIR += marsnomercy
     SUBDIR += masterserver
     SUBDIR += maxr
     SUBDIR += meandmyshadow
@@ -640,7 +637,6 @@
     SUBDIR += nethack36
     SUBDIR += nethack36-nox11
     SUBDIR += netherearth
-    SUBDIR += netpanzer
     SUBDIR += netradiant
     SUBDIR += netrek-BRMH-bin
     SUBDIR += netrek-client-cow
@@ -743,7 +739,6 @@
     SUBDIR += phlipple
     SUBDIR += picmi
     SUBDIR += pinball
-    SUBDIR += pingus
     SUBDIR += pink-pony
     SUBDIR += pioneer
     SUBDIR += pioneers

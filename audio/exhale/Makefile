@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	exhale
-DISTVERSION=	1.1.0
+DISTVERSION=	1.1.1
 CATEGORIES=	audio
 
 MAINTAINER=	daniel.engberg.lists@pyret.net
@@ -16,7 +16,7 @@ USES=		cmake compiler:c++11-lang
 
 USE_GITLAB=	yes
 GL_ACCOUNT=	ecodis
-GL_COMMIT=	c71ec4805a2cf0bdbc6968a5ef63d2dd326cf541
+GL_COMMIT=	36964d2051150ae702a6eb043f5c527f9e094985
 
 USE_LDCONFIG=	yes
 

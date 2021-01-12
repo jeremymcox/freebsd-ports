@@ -9,6 +9,10 @@
     SUBDIR += 915resolution
     SUBDIR += LPRng
     SUBDIR += LPRngTool
+    SUBDIR += R-cran-fs
+    SUBDIR += R-cran-processx
+    SUBDIR += R-cran-ps
+    SUBDIR += R-cran-xopen
     SUBDIR += UEFITool
     SUBDIR += abduco
     SUBDIR += abgx360
@@ -98,6 +102,9 @@
     SUBDIR += bareos18-client
     SUBDIR += bareos18-server
     SUBDIR += bareos18-traymonitor
+    SUBDIR += bareos19-client
+    SUBDIR += bareos19-server
+    SUBDIR += bareos19-traymonitor
     SUBDIR += barrier
     SUBDIR += bashtop
     SUBDIR += bastille
@@ -155,16 +162,12 @@
     SUBDIR += cfengine-masterfiles-devel
     SUBDIR += cfengine-masterfiles310
     SUBDIR += cfengine-masterfiles311
-    SUBDIR += cfengine-masterfiles312
-    SUBDIR += cfengine-masterfiles313
     SUBDIR += cfengine-masterfiles314
     SUBDIR += cfengine-masterfiles315
     SUBDIR += cfengine-masterfiles316
     SUBDIR += cfengine-masterfiles317
     SUBDIR += cfengine310
     SUBDIR += cfengine311
-    SUBDIR += cfengine312
-    SUBDIR += cfengine313
     SUBDIR += cfengine314
     SUBDIR += cfengine315
     SUBDIR += cfengine316
@@ -754,6 +757,7 @@
     SUBDIR += nfcutils
     SUBDIR += nitrogen
     SUBDIR += nix
+    SUBDIR += nmrpflash
     SUBDIR += no-login
     SUBDIR += node_exporter
     SUBDIR += nomad
@@ -788,9 +792,7 @@
     SUBDIR += openupsd
     SUBDIR += openzfs
     SUBDIR += openzfs-kmod
-    SUBDIR += ori
     SUBDIR += osinfo-db-tools
-    SUBDIR += osquery
     SUBDIR += p5-App-RunCron
     SUBDIR += p5-App-ZFSCurses
     SUBDIR += p5-BSD-Jail-Object
@@ -918,8 +920,6 @@
     SUBDIR += pfstat
     SUBDIR += pftables
     SUBDIR += pftop
-    SUBDIR += php72-fileinfo
-    SUBDIR += php72-posix
     SUBDIR += php73-fileinfo
     SUBDIR += php73-posix
     SUBDIR += php74-fileinfo
@@ -1042,7 +1042,6 @@
     SUBDIR += py-salt-2019
     SUBDIR += py-scandir
     SUBDIR += py-scarab
-    SUBDIR += py-shutilwhich
     SUBDIR += py-supervisor
     SUBDIR += py-tarsnapper
     SUBDIR += py-tmuxp
@@ -1119,6 +1118,7 @@
     SUBDIR += rubygem-capistrano-harrow
     SUBDIR += rubygem-chef
     SUBDIR += rubygem-chef-api
+    SUBDIR += rubygem-chef-bin
     SUBDIR += rubygem-chef-config
     SUBDIR += rubygem-chef-config12
     SUBDIR += rubygem-chef-dk
@@ -1127,7 +1127,6 @@
     SUBDIR += rubygem-chef-utils15
     SUBDIR += rubygem-chef-vault
     SUBDIR += rubygem-chef-zero
-    SUBDIR += rubygem-chef-zero5
     SUBDIR += rubygem-chef12
     SUBDIR += rubygem-choria-mcorpc-support
     SUBDIR += rubygem-facter
@@ -1267,6 +1266,7 @@
     SUBDIR += socket
     SUBDIR += socklog
     SUBDIR += solaar
+    SUBDIR += spcm
     SUBDIR += spindown
     SUBDIR += spinner
     SUBDIR += spiped
@@ -1299,11 +1299,7 @@
     SUBDIR += sysinfo
     SUBDIR += syslinux
     SUBDIR += syslog-ng
-    SUBDIR += syslog-ng325
-    SUBDIR += syslog-ng326
     SUBDIR += syslog-ng327
-    SUBDIR += syslog-ng328
-    SUBDIR += syslog-ng329
     SUBDIR += syslogger
     SUBDIR += sysrc
     SUBDIR += sysvbanner
@@ -1487,6 +1483,8 @@
     SUBDIR += wimlib
     SUBDIR += wmapmload
     SUBDIR += wmbluecpu
+    SUBDIR += wmbsdbatt
+    SUBDIR += wmcube
     SUBDIR += wmdiskmon
     SUBDIR += wmflame
     SUBDIR += wmmemfree
@@ -1497,6 +1495,7 @@
     SUBDIR += wuzzah
     SUBDIR += x86info
     SUBDIR += xbatt
+    SUBDIR += xbattbar
     SUBDIR += xcdroast
     SUBDIR += xcpustate
     SUBDIR += xdu
