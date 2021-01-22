@@ -369,6 +369,7 @@
     SUBDIR += codesearch-py
     SUBDIR += codeworker
     SUBDIR += collada-dom
+    SUBDIR += color
     SUBDIR += colorgcc
     SUBDIR += colormake
     SUBDIR += commit-patch
@@ -532,7 +533,7 @@
     SUBDIR += efl
     SUBDIR += egypt
     SUBDIR += eiffelstudio
-    SUBDIR += electron7
+    SUBDIR += electron9
     SUBDIR += elf
     SUBDIR += elfio
     SUBDIR += elfkickers
@@ -870,6 +871,7 @@
     SUBDIR += google-styleguide
     SUBDIR += googletest
     SUBDIR += goprotobuf
+    SUBDIR += goredo
     SUBDIR += gorm
     SUBDIR += goswagger
     SUBDIR += got
@@ -1156,6 +1158,7 @@
     SUBDIR += libdwarf
     SUBDIR += libe
     SUBDIR += libedit
+    SUBDIR += libegit2
     SUBDIR += libeio
     SUBDIR += libelf
     SUBDIR += libepoll-shim
@@ -1480,6 +1483,7 @@
     SUBDIR += m4
     SUBDIR += mage
     SUBDIR += magit
+    SUBDIR += magit-devel
     SUBDIR += magit-popup
     SUBDIR += make++
     SUBDIR += makedepend
@@ -1569,6 +1573,7 @@
     SUBDIR += nsync
     SUBDIR += nuitka
     SUBDIR += obby
+    SUBDIR += objconv
     SUBDIR += objecthash
     SUBDIR += ocaml-annexlib
     SUBDIR += ocaml-calendar
@@ -3966,6 +3971,7 @@
     SUBDIR += plasma5-khotkeys
     SUBDIR += plasma5-kwrited
     SUBDIR += plasma5-plasma-sdk
+    SUBDIR += please
     SUBDIR += pmccabe
     SUBDIR += pmd
     SUBDIR += pmdk
@@ -4489,6 +4495,7 @@
     SUBDIR += py-infinity
     SUBDIR += py-inflect
     SUBDIR += py-inflection
+    SUBDIR += py-iniconfig
     SUBDIR += py-inifile
     SUBDIR += py-iniparse
     SUBDIR += py-intbitset
@@ -4576,6 +4583,7 @@
     SUBDIR += py-libcst
     SUBDIR += py-libioc
     SUBDIR += py-libpeas
+    SUBDIR += py-libplist
     SUBDIR += py-libtaxii
     SUBDIR += py-libtmux
     SUBDIR += py-libusb1
@@ -5095,6 +5103,7 @@
     SUBDIR += py-tartiflette-aiohttp
     SUBDIR += py-taskflow
     SUBDIR += py-taskflow3
+    SUBDIR += py-tasklib
     SUBDIR += py-tblib
     SUBDIR += py-tempora
     SUBDIR += py-tempora1
@@ -6852,6 +6861,8 @@
     SUBDIR += tortoisehg
     SUBDIR += tpasm
     SUBDIR += tradcpp
+    SUBDIR += transwarp
+    SUBDIR += transient
     SUBDIR += treepy.el
     SUBDIR += trellis
     SUBDIR += trio
