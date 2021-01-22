@@ -235,7 +235,6 @@
     SUBDIR += geoserver
     SUBDIR += gexiv2
     SUBDIR += giblib
-    SUBDIR += gif2png
     SUBDIR += giflib
     SUBDIR += gifmerge
     SUBDIR += gifsicle
@@ -562,6 +561,7 @@
     SUBDIR += mypaint
     SUBDIR += mypaint-brushes
     SUBDIR += mypaint-brushes2
+    SUBDIR += nanort
     SUBDIR += nanosvg
     SUBDIR += netpbm
     SUBDIR += nip2
@@ -917,7 +917,6 @@
     SUBDIR += qgis-ltr
     SUBDIR += qiv
     SUBDIR += qr-code-generator
-    SUBDIR += qt-avif-image-plugin
     SUBDIR += qt5-3d
     SUBDIR += qt5-graphicaleffects
     SUBDIR += qt5-imageformats

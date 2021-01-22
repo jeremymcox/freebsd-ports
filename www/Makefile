@@ -468,6 +468,7 @@
     SUBDIR += npm-node12
     SUBDIR += npm-node14
     SUBDIR += nspluginwrapper
+    SUBDIR += oauth2-proxy
     SUBDIR += obhttpd
     SUBDIR += oneshot
     SUBDIR += onionbalance
@@ -772,6 +773,7 @@
     SUBDIR += p5-Feed-Find
     SUBDIR += p5-Feersum
     SUBDIR += p5-File-Mork
+    SUBDIR += p5-Firefox-Marionette
     SUBDIR += p5-Flea
     SUBDIR += p5-Flickr-API
     SUBDIR += p5-Flickr-Upload
@@ -1740,6 +1742,7 @@
     SUBDIR += py-tornado4
     SUBDIR += py-tornado6
     SUBDIR += py-treq
+    SUBDIR += py-ttrv
     SUBDIR += py-tuir
     SUBDIR += py-turbogears2
     SUBDIR += py-tvdb_api
@@ -1758,6 +1761,7 @@
     SUBDIR += py-webassets
     SUBDIR += py-webob
     SUBDIR += py-weboob
+    SUBDIR += py-weboob-qt
     SUBDIR += py-websocket-client
     SUBDIR += py-webunit
     SUBDIR += py-werkzeug
