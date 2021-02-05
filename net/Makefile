@@ -214,7 +214,6 @@
     SUBDIR += gsocket
     SUBDIR += gspoof
     SUBDIR += gssdp
-    SUBDIR += gstreamer-plugins-libmms
     SUBDIR += gstreamer1-plugins-libmms
     SUBDIR += gstreamer1-plugins-srtp
     SUBDIR += gtk-vnc
@@ -1054,6 +1053,7 @@
     SUBDIR += py-pygeoip
     SUBDIR += py-pyicap
     SUBDIR += py-pynamecheap
+    SUBDIR += py-pynmsg
     SUBDIR += py-pynsq
     SUBDIR += py-pypcap
     SUBDIR += py-pyroute2

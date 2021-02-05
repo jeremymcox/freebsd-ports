@@ -420,6 +420,7 @@
     SUBDIR += moab
     SUBDIR += moo
     SUBDIR += mpc
+    SUBDIR += mpdecimal
     SUBDIR += mpexpr
     SUBDIR += mpfi
     SUBDIR += mpfr
@@ -859,12 +860,12 @@
     SUBDIR += py-spglm
     SUBDIR += py-spint
     SUBDIR += py-splot
+    SUBDIR += py-spopt
     SUBDIR += py-spot
     SUBDIR += py-spreg
     SUBDIR += py-spvcm
     SUBDIR += py-ssm
     SUBDIR += py-statsmodels
-    SUBDIR += py-statsmodels010
     SUBDIR += py-svgmath
     SUBDIR += py-sym
     SUBDIR += py-symcxx
@@ -976,7 +977,6 @@
     SUBDIR += wavelib
     SUBDIR += wcalc
     SUBDIR += wfmath
-    SUBDIR += why3
     SUBDIR += wxmaxima
     SUBDIR += xblas
     SUBDIR += xfce4-calculator-plugin
