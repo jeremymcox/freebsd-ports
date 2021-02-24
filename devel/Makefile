@@ -130,7 +130,7 @@
     SUBDIR += aixlog
     SUBDIR += ald
     SUBDIR += allegro
-    SUBDIR += allegro-devel
+    SUBDIR += allegro5
     SUBDIR += alog
     SUBDIR += amd64-gcc
     SUBDIR += amd64-xtoolchain-gcc
@@ -521,6 +521,7 @@
     SUBDIR += dwarf2json
     SUBDIR += dwarfdump
     SUBDIR += dwarves
+    SUBDIR += dwz
     SUBDIR += dxa65
     SUBDIR += dyncall
     SUBDIR += e00compr
@@ -1618,6 +1619,7 @@
     SUBDIR += omake
     SUBDIR += omniORB
     SUBDIR += omnisharp-server
+    SUBDIR += onetbb
     SUBDIR += oniguruma
     SUBDIR += open-beagle
     SUBDIR += opencl
@@ -4339,6 +4341,7 @@
     SUBDIR += py-demjson
     SUBDIR += py-deprecated
     SUBDIR += py-deprecation
+    SUBDIR += py-devtools
     SUBDIR += py-dexml
     SUBDIR += py-diazo
     SUBDIR += py-dill
@@ -4354,6 +4357,7 @@
     SUBDIR += py-dogpile.cache
     SUBDIR += py-doit
     SUBDIR += py-dotted
+    SUBDIR += py-dotty-dict
     SUBDIR += py-dpcontracts
     SUBDIR += py-dtfabric
     SUBDIR += py-durus
@@ -4566,6 +4570,7 @@
     SUBDIR += py-jupyter_core
     SUBDIR += py-jupyterlab
     SUBDIR += py-jupyterlab-server
+    SUBDIR += py-jupyterlab-widgets
     SUBDIR += py-jupyterlab_launcher
     SUBDIR += py-kaitaistruct
     SUBDIR += py-kaptan
@@ -4628,6 +4633,7 @@
     SUBDIR += py-meliae
     SUBDIR += py-memory-profiler
     SUBDIR += py-microversion-parse
+    SUBDIR += py-milc
     SUBDIR += py-minidump
     SUBDIR += py-minimongo
     SUBDIR += py-minio
@@ -4831,6 +4837,8 @@
     SUBDIR += py-proselint
     SUBDIR += py-proto-plus
     SUBDIR += py-protobuf
+    SUBDIR += py-protobuf-compiler
+    SUBDIR += py-proxmoxer
     SUBDIR += py-ptable
     SUBDIR += py-ptpython
     SUBDIR += py-ptvsd
@@ -4930,6 +4938,7 @@
     SUBDIR += py-pytest-forked
     SUBDIR += py-pytest-freezegun
     SUBDIR += py-pytest-helpers-namespace
+    SUBDIR += py-pytest-httpbin
     SUBDIR += py-pytest-isort
     SUBDIR += py-pytest-lazy-fixture
     SUBDIR += py-pytest-localserver
@@ -5022,6 +5031,7 @@
     SUBDIR += py-repoze.xmliter
     SUBDIR += py-represent
     SUBDIR += py-requestsexceptions
+    SUBDIR += py-requirementslib
     SUBDIR += py-resolver
     SUBDIR += py-resource
     SUBDIR += py-responses
@@ -5988,10 +5998,12 @@
     SUBDIR += rubygem-cucumber
     SUBDIR += rubygem-cucumber-core
     SUBDIR += rubygem-cucumber-create-meta
+    SUBDIR += rubygem-cucumber-create-meta2
     SUBDIR += rubygem-cucumber-cucumber-expressions
     SUBDIR += rubygem-cucumber-cucumber-expressions10
     SUBDIR += rubygem-cucumber-formatter-dots
     SUBDIR += rubygem-cucumber-messages
+    SUBDIR += rubygem-cucumber-messages13
     SUBDIR += rubygem-cucumber-messages4
     SUBDIR += rubygem-cucumber-rails
     SUBDIR += rubygem-cucumber-tag-expressions

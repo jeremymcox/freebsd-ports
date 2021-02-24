@@ -287,6 +287,7 @@
     SUBDIR += gtkguitune
     SUBDIR += gtkpod
     SUBDIR += gtmixer
+    SUBDIR += guidoar
     SUBDIR += guidolib
     SUBDIR += guitarix-lv2
     SUBDIR += guspat
@@ -295,7 +296,6 @@
     SUBDIR += gxplugins-lv2
     SUBDIR += harp
     SUBDIR += headsetcontrol
-    SUBDIR += herrie
     SUBDIR += hexter
     SUBDIR += hpsjam
     SUBDIR += hts_engine-API
@@ -467,8 +467,10 @@
     SUBDIR += midifile
     SUBDIR += midiomatic-lv2
     SUBDIR += midipp
+    SUBDIR += midisharelight
     SUBDIR += mikmod
     SUBDIR += milkytracker
+    SUBDIR += miniaudio
     SUBDIR += minimp3
     SUBDIR += mio2jack
     SUBDIR += mixer.app
@@ -618,6 +620,7 @@
     SUBDIR += portaudio
     SUBDIR += praat
     SUBDIR += pragha
+    SUBDIR += prelude-lv2
     SUBDIR += protracker
     SUBDIR += pulseaudio
     SUBDIR += pulseaudio-module-sndio
@@ -788,6 +791,7 @@
     SUBDIR += timidity++-xaw
     SUBDIR += timidity++-xskin
     SUBDIR += tkeca
+    SUBDIR += toccata-lv2
     SUBDIR += toolame
     SUBDIR += tosha
     SUBDIR += traverso
