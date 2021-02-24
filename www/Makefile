@@ -227,6 +227,7 @@
     SUBDIR += gtkhtml4
     SUBDIR += guacamole-client
     SUBDIR += guile-www
+    SUBDIR += gurl
     SUBDIR += gwsocket
     SUBDIR += h2o
     SUBDIR += h2o-devel
@@ -1640,6 +1641,7 @@
     SUBDIR += py-html5-parser
     SUBDIR += py-html5lib
     SUBDIR += py-httmock
+    SUBDIR += py-httpbin
     SUBDIR += py-httpcore
     SUBDIR += py-httpie
     SUBDIR += py-httplib2
