@@ -54,7 +54,6 @@
     SUBDIR += baudline
     SUBDIR += bcg729
     SUBDIR += bchoppr-lv2
-    SUBDIR += beatslash-lv2
     SUBDIR += beep
     SUBDIR += beets
     SUBDIR += bharvestr-lv2
@@ -200,10 +199,10 @@
     SUBDIR += fpc-modplug
     SUBDIR += fpc-oggvorbis
     SUBDIR += fpc-openal
-    SUBDIR += fplib
     SUBDIR += freealut
     SUBDIR += freedesktop-sound-theme
     SUBDIR += freepats
+    SUBDIR += ft2play
     SUBDIR += funktrackergold
     SUBDIR += ganv
     SUBDIR += gbemol
