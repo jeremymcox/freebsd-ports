@@ -232,7 +232,6 @@
     SUBDIR += h2o
     SUBDIR += h2o-devel
     SUBDIR += habari
-    SUBDIR += helma
     SUBDIR += hiawatha
     SUBDIR += hiawatha-monitor
     SUBDIR += horde-ansel
@@ -418,8 +417,6 @@
     SUBDIR += mongrel2
     SUBDIR += monolith
     SUBDIR += moodle310
-    SUBDIR += moodle35
-    SUBDIR += moodle38
     SUBDIR += moodle39
     SUBDIR += morty
     SUBDIR += mozplugger
@@ -1406,6 +1403,7 @@
     SUBDIR += py-WebError
     SUBDIR += py-WebFlash
     SUBDIR += py-WebTest
+    SUBDIR += py-adblock
     SUBDIR += py-aioh2
     SUBDIR += py-aiohttp
     SUBDIR += py-aiohttp-middlewares
@@ -1567,7 +1565,6 @@
     SUBDIR += py-djangorestframework-csv
     SUBDIR += py-djangorestframework-filters
     SUBDIR += py-djangorestframework-xml
-    SUBDIR += py-djangorestframework311
     SUBDIR += py-draftjs-exporter
     SUBDIR += py-drf-yasg
     SUBDIR += py-dtflickr
@@ -1877,8 +1874,6 @@
     SUBDIR += rubygem-gitlab-flowdock-git-hook
     SUBDIR += rubygem-gitlab-gollum-lib
     SUBDIR += rubygem-gitlab-gollum-rugged_adapter
-    SUBDIR += rubygem-gitlab-puma
-    SUBDIR += rubygem-gitlab-puma_worker_killer
     SUBDIR += rubygem-gitlab-turbolinks-classic
     SUBDIR += rubygem-goldfinger
     SUBDIR += rubygem-gollum

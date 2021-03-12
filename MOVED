@@ -6868,8 +6868,6 @@ databases/p5-DBD-FrontBase||2014-09-07|Cascade removal (databases/frontbase)
 databases/ruby-frontbase||2014-09-07|Cascade removal (databases/frontbase)
 devel/flex-sdk2||2014-09-07|Not staged
 devel/flex_compiler_shell||2014-09-07|Cascade removal (devel/flex-sdk2)
-emulators/virtualbox-ose-legacy||2014-09-09|Not staged
-emulators/virtualbox-ose-kmod-legacy||2014-09-09|No purpose after removal of virtualbox-ose-legacy
 devel/arm-eabi-gcc||2014-09-09|Not staged
 devel/cross-gcc||2014-09-09|Not staged
 devel/arm-eabi-binutils||2014-09-09|No purpose after removal of arm-eabi-gcc
@@ -12655,10 +12653,8 @@ games/tinymux||2019-05-09|Has expired: Broken for more than 6 months
 games/voxelands||2019-05-09|Has expired: Broken for more than 6 months
 games/voxelands-server||2019-05-09|Has expired: Broken for more than 6 months
 games/warsow||2019-05-09|Has expired: Broken for more than 6 months
-graphics/appleseed||2019-05-09|Has expired: Broken for more than 6 months
 graphics/apvlv||2019-05-09|Has expired: Broken for more than 6 months
 graphics/qslim||2019-05-09|Has expired: Broken for more than 6 months
-graphics/rawstudio||2019-05-09|Has expired: Broken for more than 6 months
 graphics/tulip||2019-05-09|Has expired: Broken for more than 6 months
 lang/qore||2019-05-09|Has expired: Broken for more than 6 months
 math/goblin||2019-05-09|Has expired: Broken for more than 6 months
@@ -13258,7 +13254,6 @@ security/ranpwd||2019-10-16|Has expired: Unfetchable, unmaintained
 security/rdigest||2019-10-16|Has expired: Unfetchable, unmaintained
 security/smap||2019-10-16|Has expired: Unfetchable, unmaintained
 security/sshblock||2019-10-16|Has expired: Unfetchable, unmaintained
-shells/bashc||2019-10-16|Has expired: Unfetchable, unmaintained
 shells/flash||2019-10-16|Has expired: Unfetchable, unmaintained
 sysutils/cotty||2019-10-16|Has expired: Unfetchable, unmaintained
 sysutils/dt||2019-10-16|Has expired: Unfetchable, unmaintained
@@ -15493,7 +15488,6 @@ graphics/py-editobj||2020-09-19|Has expired: Uses deprecated version of python
 graphics/pymorph||2020-09-19|Has expired: Uses deprecated version of python
 graphics/tilecache||2020-09-19|Has expired: Uses deprecated version of python
 japanese/mailman||2020-09-19|Has expired: Uses deprecated version of python
-java/eclipse-pydev||2020-09-19|Has expired: Uses deprecated version of python
 lang/cdent||2020-09-19|Has expired: Uses deprecated version of python
 lang/julia06|lang/julia10|2020-09-19|Has expired: Uses deprecated version of python
 lang/julia07|lang/julia10|2020-09-19|Has expired: Uses deprecated version of python
@@ -16063,8 +16057,9 @@ audio/gstreamer-plugins-a52dec|audio/gstreamer1-plugins-a52dec|2021-02-04|Replac
 audio/gstreamer-plugins-amrnb|audio/gstreamer1-plugins-amrnb|2021-02-04|Replaced by gstreamer1
 audio/gstreamer-plugins-amrwbdec|audio/gstreamer1-plugins-amrwbdec|2021-02-04|Replaced by gstreamer1
 audio/gstreamer-plugins-cdaudio||2021-02-04|Replaced by gstreamer1
-audio/gstreamer-plugins-cdparanioa|audio/gstreamer1-plugins-cdparanioa|2021-02-04|Replaced by gstreamer1
+audio/gstreamer-plugins-cdparanoia|audio/gstreamer1-plugins-cdparanoia|2021-02-04|Replaced by gstreamer1
 audio/gstreamer-plugins-faac|audio/gstreamer1-plugins-faac|2021-02-04|Replaced by gstreamer1
+audio/gstreamer-plugins-faad|audio/gstreamer1-plugins-faad|2021-02-04|Replaced by gstreamer1
 audio/gstreamer-plugins-flac|audio/gstreamer1-plugins-flac|2021-02-04|Replaced by gstreamer1
 audio/gstreamer-plugins-flite|audio/gstreamer1-plugins-flite|2021-02-04|Replaced by gstreamer1
 audio/gstreamer-plugins-fluendo-mp3||2021-02-04|Replaced by gstreamer1
@@ -16091,20 +16086,20 @@ audio/gstreamer-plugins-taglib|audio/gstreamer1-plugins-taglib|2021-02-04|Replac
 audio/gstreamer-plugins-twolame|audio/gstreamer1-plugins-twolame|2021-02-04|Replaced by gstreamer1
 audio/gstreamer-plugins-vorbis|audio/gstreamer1-plugins-vorbis|2021-02-04|Replaced by gstreamer1
 audio/gstreamer-plugins-wavpack|audio/gstreamer1-plugins-wavpack|2021-02-04|Replaced by gstreamer1
+devel/gstreamer-plugins-gconf||2021-02-04|Replaced by gstreamer1
+devel/gstreamer-plugins-gio||2021-02-04|Replaced by gstreamer1
+devel/gstreamer-plugins-gnomevfs||2021-02-04|Replaced by gstreamer1
+devel/gstreamer-plugins-sdl||2021-02-04|Replaced by gstreamer1
+devel/gstreamer-plugins-soup|devel/gstreamer1-plugins-soup|2021-02-04|Replaced by gstreamer1
 graphics/gstreamer-plugins-aalib|graphics/gstreamer1-plugins-aalib|2021-02-04|Replaced by gstreamer1
 graphics/gstreamer-plugins-cairo|graphics/gstreamer1-plugins-cairo|2021-02-04|Replaced by gstreamer1
-graphics/gstreamer-plugins-gconf||2021-02-04|Replaced by gstreamer1
 graphics/gstreamer-plugins-gdkpixbuf|graphics/gstreamer1-plugins-gdkpixbuf|2021-02-04|Replaced by gstreamer1
-graphics/gstreamer-plugins-gio||2021-02-04|Replaced by gstreamer1
 graphics/gstreamer-plugins-gl|graphics/gstreamer1-plugins-gl|2021-02-04|Replaced by gstreamer1
-graphics/gstreamer-plugins-gnomevfs||2021-02-04|Replaced by gstreamer1
 graphics/gstreamer-plugins-jpeg|graphics/gstreamer1-plugins-jpeg|2021-02-04|Replaced by gstreamer1
 graphics/gstreamer-plugins-libcaca|graphics/gstreamer1-plugins-libcaca|2021-02-04|Replaced by gstreamer1
 graphics/gstreamer-plugins-libpng|graphics/gstreamer1-plugins-png|2021-02-04|Replaced by gstreamer1
 graphics/gstreamer-plugins-libvisual|graphics/gstreamer1-plugins-libvisual|2021-02-04|Replaced by gstreamer1
 graphics/gstreamer-plugins-opencv|graphics/gstreamer1-plugins-opencv|2021-02-04|Replaced by gstreamer1
-graphics/gstreamer-plugins-sdl||2021-02-04|Replaced by gstreamer1
-graphics/gstreamer-plugins-soup|devel/gstreamer1-plugins-soup|2021-02-04|Replaced by gstreamer1
 multimedia/gstreamer-ffmpeg|multimedia/gstreamer1-libav|2021-02-04|Replaced by gstreamer1
 multimedia/gstreamer-plugins-all|multimedia/gstreamer1-plugins-all|2021-02-04|Replaced by gstreamer1
 multimedia/gstreamer-plugins-annodex||2021-02-04|Replaced by gstreamer1
@@ -16171,3 +16166,29 @@ audio/herrie||2021-02-17|Removed
 sysutils/uefi-edk2-bhyve-devel|sysutils/uefi-edk2-bhyve|2021-02-17|Development version no longer necessary
 graphics/py-graph-core|graphics/py-pygraph|2021-02-19|Is outdated and broken with python3, use graphics/py-pygraph instead
 devel/allegro-devel|devel/allegro5|2021-02-20|Rename to better match upstream name
+www/py-djangorestframework311||2021-02-26|Removed: Used as a transitional package for www/seahub, please use www/py-djangorestframework instead
+editors/mg-static|editors/mg@static|2021-02-28|Flavored
+devel/snorenotify||2021-02-28|Has expired: Unmaintained upstream
+multimedia/kodi-addon-pvr-iptvsimple|multimedia/kodi-addon-pvr.iptvsimple|2021-03-01|Renamed to match upstream name
+multimedia/kodi-addon-pvr-hts|multimedia/kodi-addon-pvr.hts|2021-03-01|Renamed to match upstream name
+audio/beatslash-lv2||2021-03-01|Has expired: Unmaintained and doesn't build with the latest audio/lvtk version 2.x
+multimedia/kodi-addon-vfs.libarchive-devel||2021-03-01|Has expired: Depends on deprecated multimedia/kodi-devel
+multimedia/kodi-addon-peripheral.joystick-devel||2021-03-01|Has expired: Depends on deprecated multimedia/kodi-devel
+multimedia/kodi-devel|multimedia/kodi|2021-03-01|Has expired: Deprecated. Please use multimedia/kodi instead.
+multimedia/kodi-addon-inputstream.adaptive-devel||2021-03-01|Has expired: Depends on deprecated multimedia/kodi-devel
+print/cloud-print-connector||2021-03-01|Has expired: Google Cloud Print has been shut down by Google as of December 31, 2020
+dns/knot2|dns/knot3|2021-03-01|Has expired: Use knot3, it is functionally compatible with 2.9.x
+print/cups-cloud-print||2021-03-01|Has expired: Google Cloud Print has been shut down by Google as of December 31, 2020
+www/helma||2021-03-01|Has expired: Upstream is basically dead and recommends ringojs.org
+multimedia/kodi-addon-peripheral-joystick|multimedia/kodi-addon-peripheral.joystick|2021-03-01|Renamed to match upstream name
+sysutils/py-salt-2019|sysutils/py-salt|2021-03-02|Has expired: Deprecated. Please use sysutils/py-salt instead.
+www/rubygem-gitlab-puma_worker_killer|www/rubygem-puma_worker_killer|2021-03-03|Obsolete, use www/rubygem-puma_worker_killer instead
+www/rubygem-gitlab-puma|www/rubygem-puma|2021-03-03|Obsolete, use www/rubygem-puma instead
+korean/man-doc||2021-03-03|Has expired: Poor quality, severely outdated and undermaintained
+devel/relx||2021-03-03|Has expired: Script removed upstream, library included in devel/rebar3
+sysutils/synergy-1|sysutils/synergy|2021-03-03|Current version is 1.x.x, 2.x.x was tagged by the upstream by mistake
+www/moodle35|www/moodle39|2021-03-04|Has expired: Deprecated by upstream
+www/moodle38|www/moodle39|2021-03-04|Has expired: Deprecated by upstream
+devel/llvm60|devel/llvm80|2021-03-06|Has expired: Uses Python 2.7 which is EOLed upstream
+audio/fplib||2021-03-07|Dead service since 2015
+sysutils/prelink||2021-03-11|Has expired: Have no users in the ports tree

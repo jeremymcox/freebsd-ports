@@ -1092,6 +1092,7 @@
     SUBDIR += libCello
     SUBDIR += libIDL
     SUBDIR += libPropList
+    SUBDIR += libabigail
     SUBDIR += libafterbase
     SUBDIR += liballium
     SUBDIR += libantlr3c
@@ -1313,6 +1314,7 @@
     SUBDIR += libsavitar
     SUBDIR += libscca
     SUBDIR += libsearpc
+    SUBDIR += libserdes
     SUBDIR += libserialport
     SUBDIR += libshbuf
     SUBDIR += libshhmsg
@@ -1421,7 +1423,7 @@
     SUBDIR += llvm-devel
     SUBDIR += llvm10
     SUBDIR += llvm11
-    SUBDIR += llvm60
+    SUBDIR += llvm12
     SUBDIR += llvm70
     SUBDIR += llvm80
     SUBDIR += llvm90
@@ -1439,6 +1441,7 @@
     SUBDIR += log4net
     SUBDIR += log4sh
     SUBDIR += log4shib
+    SUBDIR += loguru
     SUBDIR += lokalize
     SUBDIR += loki
     SUBDIR += love
@@ -3703,6 +3706,7 @@
     SUBDIR += pasm
     SUBDIR += patch
     SUBDIR += pcc-libs
+    SUBDIR += pcg-cpp
     SUBDIR += pcl
     SUBDIR += pcre
     SUBDIR += pcre++
@@ -4691,7 +4695,10 @@
     SUBDIR += py-onigurumacffi
     SUBDIR += py-opcodes
     SUBDIR += py-openapi-codec
+    SUBDIR += py-openapi-schema-validator
     SUBDIR += py-openapi-spec-validator
+    SUBDIR += py-opencensus
+    SUBDIR += py-opencensus-context
     SUBDIR += py-opendht
     SUBDIR += py-opengrok-tools
     SUBDIR += py-openstacksdk
@@ -4699,6 +4706,9 @@
     SUBDIR += py-opentracing
     SUBDIR += py-opster
     SUBDIR += py-optik
+    SUBDIR += py-orange-canvas-core
+    SUBDIR += py-orange-widget-base
+    SUBDIR += py-orca
     SUBDIR += py-ordered-set
     SUBDIR += py-ordereddict
     SUBDIR += py-orderedmultidict
@@ -4893,6 +4903,7 @@
     SUBDIR += py-pylibsrtp
     SUBDIR += py-pylru
     SUBDIR += py-pylru-cache
+    SUBDIR += py-pyls-black
     SUBDIR += py-pymarc
     SUBDIR += py-pymaven-patch
     SUBDIR += py-pymisp
@@ -5000,6 +5011,7 @@
     SUBDIR += py-pyxb
     SUBDIR += py-pyyaml-include
     SUBDIR += py-q
+    SUBDIR += py-qasync
     SUBDIR += py-qt5
     SUBDIR += py-qt5-core
     SUBDIR += py-qt5-dbus
@@ -5096,6 +5108,7 @@
     SUBDIR += py-speaklater
     SUBDIR += py-speg
     SUBDIR += py-spyder
+    SUBDIR += py-spyder-kernels
     SUBDIR += py-squint
     SUBDIR += py-srsly
     SUBDIR += py-stackexchange
@@ -5400,7 +5413,6 @@
     SUBDIR += redo
     SUBDIR += regexx
     SUBDIR += regexxer
-    SUBDIR += relx
     SUBDIR += remake
     SUBDIR += remotery
     SUBDIR += replay
@@ -5408,6 +5420,7 @@
     SUBDIR += reproc
     SUBDIR += resolv_wrapper
     SUBDIR += revive
+    SUBDIR += rgbds
     SUBDIR += rhtvision
     SUBDIR += rinutils
     SUBDIR += riscv32-unknown-elf-gcc
@@ -5429,6 +5442,7 @@
     SUBDIR += ros-rospkg
     SUBDIR += ros-urdfdom
     SUBDIR += ros-urdfdom_headers
+    SUBDIR += ros-vcstool
     SUBDIR += ros-vcstools
     SUBDIR += ros-wstool
     SUBDIR += roswell
@@ -6172,6 +6186,7 @@
     SUBDIR += rubygem-google-apis-storage_v1
     SUBDIR += rubygem-google-gax
     SUBDIR += rubygem-google-protobuf
+    SUBDIR += rubygem-google-protobuf314
     SUBDIR += rubygem-google-protobuf38
     SUBDIR += rubygem-googleapis-common-protos
     SUBDIR += rubygem-googleapis-common-protos-types
@@ -6777,7 +6792,6 @@
     SUBDIR += smake
     SUBDIR += smc
     SUBDIR += smv
-    SUBDIR += snorenotify
     SUBDIR += soapui
     SUBDIR += socket_wrapper
     SUBDIR += sonar-scanner-cli
